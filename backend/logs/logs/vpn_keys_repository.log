@@ -1,0 +1,24 @@
+2024-09-16 14:58:39,340 - vpn_keys_repository - INFO
+get_keys_expiring_soon method called
+
+2024-09-16 14:58:39,344 - vpn_keys_repository - INFO
+Current time: 2024-09-16 14:58:39.344169
+
+2024-09-16 14:58:39,344 - vpn_keys_repository - INFO
+Expiration threshold: 2024-09-16 15:58:39.339369
+
+2024-09-16 14:58:39,432 - vpn_keys_repository - INFO
+Keys expiring soon: 0
+
+2024-09-16 14:59:39,330 - vpn_keys_repository - INFO
+get_keys_expiring_soon method called
+
+2024-09-16 14:59:39,333 - vpn_keys_repository - INFO
+Current time: 2024-09-16 14:59:39.333372
+
+2024-09-16 14:59:39,334 - vpn_keys_repository - INFO
+Expiration threshold: 2024-09-16 15:59:39.329608
+
+2024-09-16 14:59:39,359 - vpn_keys_repository - INFO
+Keys expiring soon: 0
+

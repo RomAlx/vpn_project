@@ -1,0 +1,693 @@
+2024-09-10 13:40:27,575 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 13:40:28,277 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9996.5)>
+
+2024-09-10 13:40:28,278 - manager.vpn - INFO
+Сгенерирован UUID: 11ecf76d-a6a7-b646-888a-da9672485f04
+
+2024-09-10 13:40:28,279 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "11ecf76d-a6a7-b646-888a-da9672485f04", "alterId": 0, "email": "1_1725975628278539", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726062027575, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 13:40:28,279 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 13:40:28,531 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 13:41:54,330 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 13:41:55,020 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9996.5)>
+
+2024-09-10 13:41:55,021 - manager.vpn - INFO
+Сгенерирован UUID: ff6c8afc-59c2-44a7-8697-778dc214e308
+
+2024-09-10 13:41:55,021 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "ff6c8afc-59c2-44a7-8697-778dc214e308", "alterId": 0, "email": "1_1725975715020786", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726062114330, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 13:41:55,022 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 13:41:55,258 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 13:42:42,906 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 13:42:43,598 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9996.5)>
+
+2024-09-10 13:42:43,600 - manager.vpn - INFO
+Сгенерирован UUID: c64da7d1-9f3a-0eb5-8c5f-af62c0e415b4
+
+2024-09-10 13:42:43,601 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "c64da7d1-9f3a-0eb5-8c5f-af62c0e415b4", "alterId": 0, "email": "1_1725975763600506", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726062162905, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 13:42:43,602 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 13:42:43,837 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 13:44:35,618 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 13:44:36,342 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9996.5)>
+
+2024-09-10 13:44:36,343 - manager.vpn - INFO
+Сгенерирован UUID: e15a1486-70be-47bb-b3b6-05add4864861
+
+2024-09-10 13:44:36,343 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "e15a1486-70be-47bb-b3b6-05add4864861", "alterId": 0, "email": "1_1725975876343469", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726062275618, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 13:44:36,343 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 13:44:36,595 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 13:44:36,596 - manager.vpn - INFO
+Клиент успешно создан. UUID: e15a1486-70be-47bb-b3b6-05add4864861, VLESS ссылка: vless://e15a1486-70be-47bb-b3b6-05add4864861@your_server_address:your_server_port?encryption=none&flow=&network=tcp&type=none&path=/&security=none&sni=#VLESS_Generated
+
+2024-09-10 13:45:30,327 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 13:45:31,057 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9996.0)>
+
+2024-09-10 13:45:31,058 - manager.vpn - INFO
+Сгенерирован UUID: f32afafa-5b1e-a346-ed50-d56175b9ab57
+
+2024-09-10 13:45:31,058 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "f32afafa-5b1e-a346-ed50-d56175b9ab57", "alterId": 0, "email": "1_1725975931058328", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726062330327, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 13:45:31,059 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 13:45:31,350 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 13:45:31,351 - manager.vpn - INFO
+Клиент успешно создан. UUID: f32afafa-5b1e-a346-ed50-d56175b9ab57, VLESS ссылка: vless://f32afafa-5b1e-a346-ed50-d56175b9ab57@your_server_address:your_server_port?encryption=none&flow=&network=tcp&type=none&path=/&security=none&sni=#VLESS_Generated
+
+2024-09-10 13:46:00,373 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 13:46:01,090 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9995.5)>
+
+2024-09-10 13:46:01,091 - manager.vpn - INFO
+Сгенерирован UUID: bdec1987-9a21-fc71-65f9-e499b9407e4a
+
+2024-09-10 13:46:01,092 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "bdec1987-9a21-fc71-65f9-e499b9407e4a", "alterId": 0, "email": "1_1725975961091203", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726062360372, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 13:46:01,092 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 13:46:01,369 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 13:46:01,369 - manager.vpn - INFO
+Клиент успешно создан. UUID: bdec1987-9a21-fc71-65f9-e499b9407e4a, VLESS ссылка: vless://bdec1987-9a21-fc71-65f9-e499b9407e4a@your_server_address:your_server_port?encryption=none&flow=&network=tcp&type=none&path=/&security=none&sni=#VLESS_Generated
+
+2024-09-10 13:46:51,534 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 13:46:52,272 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9995.0)>
+
+2024-09-10 13:46:52,273 - manager.vpn - INFO
+Сгенерирован UUID: a7f79bbc-55f0-dff8-a3da-50e90fba435d
+
+2024-09-10 13:46:52,273 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "a7f79bbc-55f0-dff8-a3da-50e90fba435d", "alterId": 0, "email": "1_1725976012273003", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726062411534, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 13:46:52,273 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 13:46:52,518 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 13:46:52,519 - manager.vpn - INFO
+Клиент успешно создан. UUID: a7f79bbc-55f0-dff8-a3da-50e90fba435d, VLESS ссылка: vless://a7f79bbc-55f0-dff8-a3da-50e90fba435d@your_server_address:your_server_port?encryption=none&flow=&network=tcp&type=none&path=/&security=none&sni=#VLESS_Generated
+
+2024-09-10 13:49:51,211 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 13:49:51,937 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9994.5)>
+
+2024-09-10 13:49:51,938 - manager.vpn - INFO
+Сгенерирован UUID: d31fd389-5a8b-eab1-74e4-256a68b5c083
+
+2024-09-10 13:49:51,939 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "d31fd389-5a8b-eab1-74e4-256a68b5c083", "alterId": 0, "email": "1_1725976191938503", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726062591211, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 13:49:51,939 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 13:49:52,174 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 13:49:52,175 - manager.vpn - INFO
+Клиент успешно создан. UUID: d31fd389-5a8b-eab1-74e4-256a68b5c083, VLESS ссылка: vless://d31fd389-5a8b-eab1-74e4-256a68b5c083@your_server_address:your_server_port?encryption=none&flow=&network=tcp&type=none&path=/&security=none&sni=#VLESS_Generated
+
+2024-09-10 13:50:20,993 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 13:50:21,713 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9994.0)>
+
+2024-09-10 13:50:21,714 - manager.vpn - INFO
+Сгенерирован UUID: d7164365-65d2-5f8c-b712-a7f84c0d9252
+
+2024-09-10 13:50:21,715 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "d7164365-65d2-5f8c-b712-a7f84c0d9252", "alterId": 0, "email": "1_1725976221714182", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726062620992, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 13:50:21,715 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 13:50:21,962 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 13:50:21,962 - manager.vpn - INFO
+Клиент успешно создан. UUID: d7164365-65d2-5f8c-b712-a7f84c0d9252, VLESS ссылка: vless://d7164365-65d2-5f8c-b712-a7f84c0d9252@your_server_address:your_server_port?encryption=none&flow=&network=tcp&type=none&path=/&security=none&sni=#VLESS_Generated
+
+2024-09-10 14:12:43,016 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 14:12:43,751 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9993.5)>
+
+2024-09-10 14:12:43,753 - manager.vpn - INFO
+Сгенерирован UUID: 76904b29-66c3-5b8e-c80a-1112f273cd06
+
+2024-09-10 14:12:43,754 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "76904b29-66c3-5b8e-c80a-1112f273cd06", "alterId": 0, "email": "1_1725977563752947", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726063963016, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 14:12:43,754 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 14:12:44,013 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 14:12:44,015 - manager.vpn - INFO
+Клиент успешно создан. UUID: 76904b29-66c3-5b8e-c80a-1112f273cd06, VLESS ссылка: vless://76904b29-66c3-5b8e-c80a-1112f273cd06@185.233.81.223:443?type=tcp&security=reality&pbk=jpurdffXFISHvRAtVZdMrE4BWTrMkbGpHYWLsMtUQCc&fp=random&sni=yahoo.com&sid=31a15e55&spx=%2F#76904b29-66c3-5b8e-c80a-1112f273cd06
+
+2024-09-10 14:15:12,152 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 14:15:12,916 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9993.0)>
+
+2024-09-10 14:15:12,917 - manager.vpn - INFO
+Сгенерирован UUID: 2a653e4d-3026-0086-fa4d-cd93be9af619
+
+2024-09-10 14:15:12,919 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "2a653e4d-3026-0086-fa4d-cd93be9af619", "alterId": 0, "email": "1_1725977712917603", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726064112152, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 14:15:12,920 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 14:15:13,165 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 14:15:13,167 - manager.vpn - INFO
+Клиент успешно создан. UUID: 2a653e4d-3026-0086-fa4d-cd93be9af619, VLESS ссылка: vless://2a653e4d-3026-0086-fa4d-cd93be9af619@185.233.81.223:443/?type=tcp&security=reality&pbk=jpurdffXFISHvRAtVZdMrE4BWTrMkbGpHYWLsMtUQCc&fp=random&sni=yahoo.com&sid=31a15e55&spx=%2F#1_1725977712917603
+
+2024-09-10 14:16:11,978 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 14:16:12,681 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9992.5)>
+
+2024-09-10 14:16:12,682 - manager.vpn - INFO
+Сгенерирован UUID: c088cf81-34f8-beb7-dfc6-e7ab718bdff9
+
+2024-09-10 14:16:12,683 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "c088cf81-34f8-beb7-dfc6-e7ab718bdff9", "alterId": 0, "email": "1_1725977772682588", "flow": "", "limitIp": 2, "totalGB": 3221225472000, "expiryTime": 1733753771978, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 14:16:12,683 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 14:16:12,915 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 14:16:12,916 - manager.vpn - INFO
+Клиент успешно создан. UUID: c088cf81-34f8-beb7-dfc6-e7ab718bdff9, VLESS ссылка: vless://c088cf81-34f8-beb7-dfc6-e7ab718bdff9@185.233.81.223:443/?type=tcp&security=reality&pbk=jpurdffXFISHvRAtVZdMrE4BWTrMkbGpHYWLsMtUQCc&fp=random&sni=yahoo.com&sid=31a15e55&spx=%2F#1_1725977772682588
+
+2024-09-10 14:56:57,596 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 14:56:58,329 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9979.0)>
+
+2024-09-10 14:56:58,329 - manager.vpn - INFO
+Сгенерирован UUID: 1e0864a2-d6e6-2ea9-2373-d07d4e7fc6ce
+
+2024-09-10 14:56:58,330 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "1e0864a2-d6e6-2ea9-2373-d07d4e7fc6ce", "alterId": 0, "email": "1_1725980218329819", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726066617596, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 14:56:58,330 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 14:56:58,578 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 14:56:58,579 - manager.vpn - INFO
+Клиент успешно создан. UUID: 1e0864a2-d6e6-2ea9-2373-d07d4e7fc6ce, VLESS ссылка: vless://1e0864a2-d6e6-2ea9-2373-d07d4e7fc6ce@185.233.81.223:443/?type=tcp&security=reality&pbk=jpurdffXFISHvRAtVZdMrE4BWTrMkbGpHYWLsMtUQCc&fp=random&sni=yahoo.com&sid=31a15e55&spx=%2F#1_1725980218329819
+
+2024-09-10 14:58:46,835 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 14:58:47,561 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9978.5)>
+
+2024-09-10 14:58:47,562 - manager.vpn - INFO
+Сгенерирован UUID: 87ece5ef-b07c-edad-f1b2-608981b056a9
+
+2024-09-10 14:58:47,562 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "87ece5ef-b07c-edad-f1b2-608981b056a9", "alterId": 0, "email": "1_172598032756184", "flow": "xtls-rprx-vision", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726066726835, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 14:58:47,562 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 14:58:47,868 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 14:58:47,869 - manager.vpn - INFO
+Клиент успешно создан. UUID: 87ece5ef-b07c-edad-f1b2-608981b056a9, VLESS ссылка: vless://87ece5ef-b07c-edad-f1b2-608981b056a9@185.233.81.223:443/?type=tcp&security=reality&pbk=jpurdffXFISHvRAtVZdMrE4BWTrMkbGpHYWLsMtUQCc&fp=random&sni=yahoo.com&sid=31a15e55&spx=%2F#1_172598032756184
+
+2024-09-10 15:15:40,546 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 15:15:41,295 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9978.0)>
+
+2024-09-10 15:15:41,296 - manager.vpn - INFO
+Сгенерирован UUID: c1d03fd7-429e-ff98-6b03-429d7a3f4beb
+
+2024-09-10 15:15:41,297 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "c1d03fd7-429e-ff98-6b03-429d7a3f4beb", "alterId": 0, "email": "1_1725981341296451", "flow": "xtls-rprx-vision", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726067740546, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 15:15:41,297 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 15:15:41,553 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 15:15:41,554 - manager.vpn - INFO
+Клиент успешно создан. UUID: c1d03fd7-429e-ff98-6b03-429d7a3f4beb, VLESS ссылка: vless://c1d03fd7-429e-ff98-6b03-429d7a3f4beb@185.233.81.223:443/?type=tcp&security=reality&pbk=jpurdffXFISHvRAtVZdMrE4BWTrMkbGpHYWLsMtUQCc&fp=random&sni=yahoo.com&sid=31a15e55&spx=%2F#1_1725981341296451
+
+2024-09-10 15:19:33,332 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 15:19:34,221 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9977.5)>
+
+2024-09-10 15:19:34,222 - manager.vpn - INFO
+Сгенерирован UUID: 14129769-432c-4902-8133-dde036a658cb
+
+2024-09-10 15:19:34,222 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "14129769-432c-4902-8133-dde036a658cb", "alterId": 0, "email": "1_1725981574222143", "flow": "xtls-rprx-vision", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726067973332, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 15:19:34,223 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 15:19:34,460 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 15:20:34,977 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 15:20:35,680 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9977.5)>
+
+2024-09-10 15:20:35,681 - manager.vpn - INFO
+Сгенерирован UUID: dc15832e-bed2-abc4-a11c-abc12f5cbb03
+
+2024-09-10 15:20:35,682 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "dc15832e-bed2-abc4-a11c-abc12f5cbb03", "alterId": 0, "email": "1_1725981635681461", "flow": "xtls-rprx-vision", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726068034977, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 15:20:35,682 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 15:20:35,915 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 15:21:00,913 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 15:21:01,675 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9977.5)>
+
+2024-09-10 15:21:01,677 - manager.vpn - INFO
+Сгенерирован UUID: 608f06d1-1a89-d1eb-46da-abecd8b99d92
+
+2024-09-10 15:21:01,677 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "608f06d1-1a89-d1eb-46da-abecd8b99d92", "alterId": 0, "email": "1_1725981661676876", "flow": "xtls-rprx-vision", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726068060913, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 15:21:01,677 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 15:21:02,029 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 15:21:34,832 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 15:21:35,545 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9977.5)>
+
+2024-09-10 15:21:35,547 - manager.vpn - INFO
+Сгенерирован UUID: e5879468-f90d-03cf-5b34-600cf285205c
+
+2024-09-10 15:21:35,547 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "e5879468-f90d-03cf-5b34-600cf285205c", "alterId": 0, "email": "1_1725981695546667", "flow": "xtls-rprx-vision", "limitIp": 2, "totalGB": 1073741824000, "expiryTime": 1728573694831, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 15:21:35,548 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 15:21:35,786 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 15:21:35,788 - manager.vpn - INFO
+Клиент успешно создан. UUID: e5879468-f90d-03cf-5b34-600cf285205c, VLESS ссылка: vless://e5879468-f90d-03cf-5b34-600cf285205c@185.233.81.223:443/?type=tcp&security=reality&pbk=jpurdffXFISHvRAtVZdMrE4BWTrMkbGpHYWLsMtUQCc&fp=random&sni=yahoo.com&sid=31a15e55&spx=%2F#1_1725981695546667
+
+2024-09-10 15:22:17,987 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 15:22:18,697 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9972.7)>
+
+2024-09-10 15:22:18,698 - manager.vpn - INFO
+Сгенерирован UUID: 5ec4dc95-3159-d6e9-32aa-65d6d20ece7f
+
+2024-09-10 15:22:18,699 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "5ec4dc95-3159-d6e9-32aa-65d6d20ece7f", "alterId": 0, "email": "1_1725981738698583", "flow": "xtls-rprx-vision", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726068137986, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 15:22:18,699 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 15:22:18,934 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 15:24:11,275 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 15:24:11,983 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9972.7)>
+
+2024-09-10 15:24:11,985 - manager.vpn - INFO
+Сгенерирован UUID: 57648542-8d44-2545-92af-fd1beb1f3de5
+
+2024-09-10 15:24:11,985 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "57648542-8d44-2545-92af-fd1beb1f3de5", "alterId": 0, "email": "1_1725981851984868", "flow": "xtls-rprx-vision", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726068251275, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 15:24:11,985 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 15:24:12,243 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 15:24:12,269 - manager.vpn - INFO
+Клиент успешно создан. UUID: 57648542-8d44-2545-92af-fd1beb1f3de5, VLESS ссылка: vless://57648542-8d44-2545-92af-fd1beb1f3de5@185.233.81.223:443/?type=tcp&security=reality&pbk=jpurdffXFISHvRAtVZdMrE4BWTrMkbGpHYWLsMtUQCc&fp=random&sni=yahoo.com&sid=31a15e55&spx=%2F#1_1725981851984868
+
+2024-09-10 15:26:11,843 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-10 15:26:12,559 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9972.2)>
+
+2024-09-10 15:26:12,561 - manager.vpn - INFO
+Сгенерирован UUID: 68ace477-1f23-0049-ae39-af1b1b90ad8f
+
+2024-09-10 15:26:12,562 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "68ace477-1f23-0049-ae39-af1b1b90ad8f", "alterId": 0, "email": "1_1725981972560423", "flow": "xtls-rprx-vision", "limitIp": 2, "totalGB": 1073741824000, "expiryTime": 1728573971843, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 15:26:12,562 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 15:26:12,808 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 15:26:12,831 - manager.vpn - INFO
+Клиент успешно создан. UUID: 68ace477-1f23-0049-ae39-af1b1b90ad8f, VLESS ссылка: vless://68ace477-1f23-0049-ae39-af1b1b90ad8f@185.233.81.223:443/?type=tcp&security=reality&pbk=jpurdffXFISHvRAtVZdMrE4BWTrMkbGpHYWLsMtUQCc&fp=random&sni=yahoo.com&sid=31a15e55&spx=%2F#1_1725981972560423
+
+2024-09-10 15:37:55,581 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 3
+
+2024-09-10 15:37:56,340 - manager.vpn - INFO
+User: <User(id=3, tg_id=6954670200, first_name='tess.web', balance=10000.0)>
+
+2024-09-10 15:37:56,342 - manager.vpn - INFO
+Сгенерирован UUID: d8e1c349-eb93-11e8-c33c-55f710b913e9
+
+2024-09-10 15:37:56,343 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "d8e1c349-eb93-11e8-c33c-55f710b913e9", "alterId": 0, "email": "3_172598267634139", "flow": "xtls-rprx-vision", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726069075581, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-10 15:37:56,343 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-10 15:37:56,588 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-10 15:37:56,611 - manager.vpn - INFO
+Клиент успешно создан. UUID: d8e1c349-eb93-11e8-c33c-55f710b913e9, VLESS ссылка: vless://d8e1c349-eb93-11e8-c33c-55f710b913e9@185.233.81.223:443/?type=tcp&security=reality&pbk=jpurdffXFISHvRAtVZdMrE4BWTrMkbGpHYWLsMtUQCc&fp=random&sni=yahoo.com&sid=31a15e55&spx=%2F#3_172598267634139
+
+2024-09-11 13:46:00,586 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 5
+
+2024-09-11 13:46:01,321 - manager.vpn - INFO
+User: <User(id=5, tg_id=152570569, first_name='P', balance=10000.0)>
+
+2024-09-11 13:46:01,323 - manager.vpn - INFO
+Сгенерирован UUID: 78162788-b221-04f5-e7a6-17fdbd461a33
+
+2024-09-11 13:46:01,323 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "78162788-b221-04f5-e7a6-17fdbd461a33", "alterId": 0, "email": "5_1726062361322272", "flow": "xtls-rprx-vision", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726148760586, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-11 13:46:01,324 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-11 13:46:01,562 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-11 13:46:01,591 - manager.vpn - INFO
+Клиент успешно создан. UUID: 78162788-b221-04f5-e7a6-17fdbd461a33, VLESS ссылка: vless://78162788-b221-04f5-e7a6-17fdbd461a33@185.233.81.223:443/?type=tcp&security=reality&pbk=jpurdffXFISHvRAtVZdMrE4BWTrMkbGpHYWLsMtUQCc&fp=random&sni=yahoo.com&sid=31a15e55&spx=%2F#5_1726062361322272
+
+2024-09-11 13:58:31,760 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-11 13:58:32,462 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9967.4)>
+
+2024-09-11 13:58:32,463 - manager.vpn - INFO
+Сгенерирован UUID: 63a47d35-eba7-f227-68be-2e1f46b941f9
+
+2024-09-11 13:58:32,464 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "63a47d35-eba7-f227-68be-2e1f46b941f9", "alterId": 0, "email": "1_1726063112463237", "flow": "xtls-rprx-vision", "limitIp": 2, "totalGB": 12884901888000, "expiryTime": 1757599111760, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-11 13:58:32,464 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-11 13:58:32,713 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-11 13:58:32,725 - manager.vpn - INFO
+Клиент успешно создан. UUID: 63a47d35-eba7-f227-68be-2e1f46b941f9, VLESS ссылка: vless://63a47d35-eba7-f227-68be-2e1f46b941f9@185.233.81.223:443/?type=tcp&security=reality&pbk=jpurdffXFISHvRAtVZdMrE4BWTrMkbGpHYWLsMtUQCc&fp=random&sni=yahoo.com&sid=31a15e55&spx=%2F#1_1726063112463237
+
+2024-09-11 14:35:58,018 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 5
+
+2024-09-11 14:35:58,733 - manager.vpn - INFO
+User: <User(id=5, tg_id=152570569, first_name='P', balance=9999.5)>
+
+2024-09-11 14:35:58,735 - manager.vpn - INFO
+Сгенерирован UUID: 3a97c533-a642-cc31-e3d9-e0ff71f41d4e
+
+2024-09-11 14:35:58,736 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "3a97c533-a642-cc31-e3d9-e0ff71f41d4e", "alterId": 0, "email": "5_1726065358734559", "flow": "xtls-rprx-vision", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726151758018, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-11 14:35:58,736 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-11 14:35:58,974 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-11 14:35:58,994 - manager.vpn - INFO
+Клиент успешно создан. UUID: 3a97c533-a642-cc31-e3d9-e0ff71f41d4e, VLESS ссылка: vless://3a97c533-a642-cc31-e3d9-e0ff71f41d4e@185.233.81.223:443/?type=tcp&security=reality&pbk=jpurdffXFISHvRAtVZdMrE4BWTrMkbGpHYWLsMtUQCc&fp=random&sni=yahoo.com&sid=31a15e55&spx=%2F#5_1726065358734559
+
+2024-09-11 14:41:31,746 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 5
+
+2024-09-11 14:41:32,446 - manager.vpn - INFO
+User: <User(id=5, tg_id=152570569, first_name='P', balance=9999.0)>
+
+2024-09-11 14:41:32,447 - manager.vpn - INFO
+Сгенерирован UUID: 88a6cdb6-9329-b3b8-3e16-d0fff4f76c5e
+
+2024-09-11 14:41:32,447 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "88a6cdb6-9329-b3b8-3e16-d0fff4f76c5e", "alterId": 0, "email": "5_1726065692447117", "flow": "xtls-rprx-vision", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726152091746, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-11 14:41:32,448 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-11 14:41:32,685 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-11 14:41:32,701 - manager.vpn - INFO
+Клиент успешно создан. UUID: 88a6cdb6-9329-b3b8-3e16-d0fff4f76c5e, VLESS ссылка: vless://88a6cdb6-9329-b3b8-3e16-d0fff4f76c5e@185.233.81.223:443/?type=tcp&security=reality&pbk=jpurdffXFISHvRAtVZdMrE4BWTrMkbGpHYWLsMtUQCc&fp=random&sni=yahoo.com&sid=31a15e55&spx=%2F#5_1726065692447117
+
+2024-09-11 15:01:10,959 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-11 15:01:11,699 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9837.8)>
+
+2024-09-11 15:01:11,700 - manager.vpn - INFO
+Сгенерирован UUID: 1d208b94-a5ad-1a51-c15e-5b623eb40400
+
+2024-09-11 15:01:11,701 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "1d208b94-a5ad-1a51-c15e-5b623eb40400", "alterId": 0, "email": "1_1726066871700449", "flow": "", "limitIp": 2, "totalGB": 1073741824000, "expiryTime": 1728658870959, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-11 15:01:11,701 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-11 15:01:11,965 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-11 15:01:11,980 - manager.vpn - INFO
+Клиент успешно создан. UUID: 1d208b94-a5ad-1a51-c15e-5b623eb40400, VLESS ссылка: vless://1d208b94-a5ad-1a51-c15e-5b623eb40400@185.233.81.223:443/?type=tcp&security=reality&pbk=ROx047mgBklnXeljIIG79NfpyCykSe-r_55PyvkgzVE&fp=chrome&sni=ya.ru&sid=97df02b74a19ae3e&spx=%2F&flow=xtls-rprx-vision#tgbot-1_1726066871700449
+
+2024-09-11 15:09:11,297 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-11 15:09:12,145 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9833.0)>
+
+2024-09-11 15:09:12,147 - manager.vpn - INFO
+Сгенерирован UUID: 652259f5-c47e-e44c-c911-d26e9a3f0b4c
+
+2024-09-11 15:09:12,147 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "652259f5-c47e-e44c-c911-d26e9a3f0b4c", "alterId": 0, "email": "1_1726067352146694", "flow": "", "limitIp": 2, "totalGB": 12884901888000, "expiryTime": 1757603351297, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-11 15:09:12,147 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-11 15:09:12,399 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-11 15:09:12,418 - manager.vpn - INFO
+Клиент успешно создан. UUID: 652259f5-c47e-e44c-c911-d26e9a3f0b4c, VLESS ссылка: vless://652259f5-c47e-e44c-c911-d26e9a3f0b4c@185.233.81.223:443/?type=tcp&security=reality&pbk=ROx047mgBklnXeljIIG79NfpyCykSe-r_55PyvkgzVE&fp=chrome&sni=ya.ru&sid=97df02b74a19ae3e&spx=%2F&flow=xtls-rprx-vision#tgbot-1_1726067352146694
+
+2024-09-11 15:12:41,354 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-11 15:12:42,078 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9703.4)>
+
+2024-09-11 15:12:42,079 - manager.vpn - INFO
+Сгенерирован UUID: 27ac9388-33ae-6de5-7bb0-f8d6173059b7
+
+2024-09-11 15:12:42,080 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "27ac9388-33ae-6de5-7bb0-f8d6173059b7", "alterId": 0, "email": "1_1726067562079534", "flow": "", "limitIp": 2, "totalGB": 12884901888000, "expiryTime": 1757603561354, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-11 15:12:42,080 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-11 15:12:42,324 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-11 15:12:42,340 - manager.vpn - INFO
+Клиент успешно создан. UUID: 27ac9388-33ae-6de5-7bb0-f8d6173059b7, VLESS ссылка: vless://27ac9388-33ae-6de5-7bb0-f8d6173059b7@185.233.81.223:443/?type=tcp&security=reality&pbk=ROx047mgBklnXeljIIG79NfpyCykSe-r_55PyvkgzVE&fp=chrome&sni=ya.ru&sid=97df02b74a19ae3e&spx=%2F#tgbot-1_1726067562079534
+
+2024-09-11 15:15:41,318 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 5
+
+2024-09-11 15:15:42,015 - manager.vpn - INFO
+User: <User(id=5, tg_id=152570569, first_name='P', balance=9998.5)>
+
+2024-09-11 15:15:42,016 - manager.vpn - INFO
+Сгенерирован UUID: 2d6c21bf-3a3c-8450-2511-d63e424db16a
+
+2024-09-11 15:15:42,016 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "2d6c21bf-3a3c-8450-2511-d63e424db16a", "alterId": 0, "email": "5_1726067742015925", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726154141317, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-11 15:15:42,017 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-11 15:15:42,252 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-11 15:15:42,266 - manager.vpn - INFO
+Клиент успешно создан. UUID: 2d6c21bf-3a3c-8450-2511-d63e424db16a, VLESS ссылка: vless://2d6c21bf-3a3c-8450-2511-d63e424db16a@185.233.81.223:443/?type=tcp&security=reality&pbk=ROx047mgBklnXeljIIG79NfpyCykSe-r_55PyvkgzVE&fp=chrome&sni=ya.ru&sid=97df02b74a19ae3e&spx=%2F#tgbot-5_1726067742015925
+
+2024-09-16 14:16:39,679 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-16 14:16:40,423 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9573.8)>
+
+2024-09-16 14:16:40,428 - manager.vpn - INFO
+Сгенерирован UUID: 69243add-2f51-99b7-f60f-455508366deb
+
+2024-09-16 14:16:40,428 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "69243add-2f51-99b7-f60f-455508366deb", "alterId": 0, "email": "1_1726496200427975", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726582599676, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-16 14:16:40,429 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-16 14:16:40,678 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-16 14:16:42,055 - manager.vpn - INFO
+Клиент успешно создан. UUID: 69243add-2f51-99b7-f60f-455508366deb, VLESS ссылка: vless://69243add-2f51-99b7-f60f-455508366deb@185.233.81.223:443/?type=tcp&security=reality&pbk=ROx047mgBklnXeljIIG79NfpyCykSe-r_55PyvkgzVE&fp=chrome&sni=ya.ru&sid=97df02b74a19ae3e&spx=%2F#tgbot-1_1726496200427975
+
+2024-09-16 14:34:00,601 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-16 14:34:00,601 - manager.vpn - INFO
+Начало создания VPN клиента для user_id: 1
+
+2024-09-16 14:34:01,325 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9573.3)>
+
+2024-09-16 14:34:01,325 - manager.vpn - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9573.3)>
+
+2024-09-16 14:34:01,326 - manager.vpn - INFO
+Сгенерирован UUID: 206421c8-6b3a-975c-2a54-d9ec0987c914
+
+2024-09-16 14:34:01,326 - manager.vpn - INFO
+Сгенерирован UUID: 206421c8-6b3a-975c-2a54-d9ec0987c914
+
+2024-09-16 14:34:01,327 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "206421c8-6b3a-975c-2a54-d9ec0987c914", "alterId": 0, "email": "1_1726497241326512", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726583640601, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-16 14:34:01,327 - manager.vpn - INFO
+Сформированы настройки клиента: {"clients": [{"id": "206421c8-6b3a-975c-2a54-d9ec0987c914", "alterId": 0, "email": "1_1726497241326512", "flow": "", "limitIp": 2, "totalGB": 53687091200, "expiryTime": 1726583640601, "enable": true, "tgId": "", "subId": ""}]}
+
+2024-09-16 14:34:01,327 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-16 14:34:01,327 - manager.vpn - INFO
+Отправка запроса на URL: https://185.233.81.223:55555/panel/api/inbounds/addClient
+
+2024-09-16 14:34:01,591 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-16 14:34:01,591 - manager.vpn - INFO
+Получен ответ: Статус 200, Тело: {"success":true,"msg":"Client(s) added Successfully","obj":null}
+
+2024-09-16 14:34:01,610 - manager.vpn - INFO
+Клиент успешно создан. UUID: 206421c8-6b3a-975c-2a54-d9ec0987c914, VLESS ссылка: vless://206421c8-6b3a-975c-2a54-d9ec0987c914@185.233.81.223:443/?type=tcp&security=reality&pbk=ROx047mgBklnXeljIIG79NfpyCykSe-r_55PyvkgzVE&fp=chrome&sni=ya.ru&sid=97df02b74a19ae3e&spx=%2F#tgbot-1_1726497241326512
+
+2024-09-16 14:34:01,610 - manager.vpn - INFO
+Клиент успешно создан. UUID: 206421c8-6b3a-975c-2a54-d9ec0987c914, VLESS ссылка: vless://206421c8-6b3a-975c-2a54-d9ec0987c914@185.233.81.223:443/?type=tcp&security=reality&pbk=ROx047mgBklnXeljIIG79NfpyCykSe-r_55PyvkgzVE&fp=chrome&sni=ya.ru&sid=97df02b74a19ae3e&spx=%2F#tgbot-1_1726497241326512
+

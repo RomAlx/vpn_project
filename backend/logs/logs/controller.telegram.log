@@ -1,0 +1,699 @@
+2024-09-10 13:40:28,532 - controller.telegram - ERROR
+Ошибка при создании VPN ключа: create_vpn_key() missing 1 required positional argument: 'gb_limit'
+
+2024-09-10 13:41:55,259 - controller.telegram - ERROR
+Ошибка при создании VPN ключа: create_vpn_key() missing 1 required positional argument: 'gb_limit'
+
+2024-09-10 13:42:43,837 - controller.telegram - ERROR
+Ошибка при создании VPN ключа: create_vpn_key() missing 1 required positional argument: 'gb_limit'
+
+2024-09-10 13:44:36,624 - controller.telegram - ERROR
+Ошибка при создании VPN ключа: 'str' object has no attribute 'key'
+
+2024-09-10 13:45:31,375 - controller.telegram - ERROR
+Ошибка при создании VPN ключа: 'str' object has no attribute 'expires_at'
+
+2024-09-10 13:46:01,858 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на День. Новый баланс: 9994.5 USD
+
+2024-09-10 13:46:07,057 - controller.telegram - INFO
+callback user_keys send
+
+2024-09-10 13:46:49,178 - controller.telegram - WARNING
+There is no reply markup for delete: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+2024-09-10 13:46:52,948 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на День. Новый баланс: 9994.0 USD
+
+2024-09-10 13:49:52,563 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на День. Новый баланс: 9993.5 USD
+
+2024-09-10 13:50:22,360 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на День. Новый баланс: 9993.0 USD
+
+2024-09-10 14:12:44,445 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на День. Новый баланс: 9992.5 USD
+
+2024-09-10 14:15:13,592 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на День. Новый баланс: 9992.0 USD
+
+2024-09-10 14:16:13,242 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на 3 месяца. Новый баланс: 9965.5 USD
+
+2024-09-10 14:39:31,203 - controller.telegram - INFO
+user id - 324354843 recieved message: vless://c088cf81-34f8-beb7-dfc6-e7ab718bdff9@185.233.81.223:443/?type=tcp&security=reality&pbk=jpurdffXFISHvRAtVZdMrE4BWTrMkbGpHYWLsMtUQCc&fp=random&sni=yahoo.com&sid=31a15e55&spx=%2F#1_1725977772682588
+
+2024-09-10 14:39:32,589 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-09-10 14:56:58,877 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на День. Новый баланс: 9978.0 USD
+
+2024-09-10 14:58:48,201 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на День. Новый баланс: 9977.5 USD
+
+2024-09-10 15:15:41,874 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на День. Новый баланс: 9977.0 USD
+
+2024-09-10 15:19:34,461 - controller.telegram - ERROR
+Ошибка при создании VPN ключа: create_vpn_key() missing 1 required positional argument: 'gb_limit'
+
+2024-09-10 15:20:35,916 - controller.telegram - ERROR
+Ошибка при создании VPN ключа: year 56666 is out of range
+
+2024-09-10 15:21:02,030 - controller.telegram - ERROR
+Ошибка при создании VPN ключа: year 56666 is out of range
+
+2024-09-10 15:21:36,167 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на Месяц. Новый баланс: 9967.900000000001 USD
+
+2024-09-10 15:22:18,951 - controller.telegram - ERROR
+Ошибка при создании VPN ключа: (mysql.connector.errors.DataError) 1292 (22007): Incorrect datetime value: '1726068137986' for column 'expires_at' at row 1
+[SQL: INSERT INTO vpn_keys (user_id, uuid, client_id, expires_at, gb_limit) VALUES (%(user_id)s, %(uuid)s, %(client_id)s, %(expires_at)s, %(gb_limit)s)]
+[parameters: {'user_id': 1, 'uuid': '5ec4dc95-3159-d6e9-32aa-65d6d20ece7f', 'client_id': '1_1725981738698583', 'expires_at': 1726068137986, 'gb_limit': 50}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+
+2024-09-10 15:24:12,573 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на День. Новый баланс: 9971.7 USD
+
+2024-09-10 15:24:29,896 - controller.telegram - INFO
+callback user_keys send
+
+2024-09-10 15:26:03,288 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-09-10 15:26:03,529 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-09-10 15:26:03,530 - controller.telegram - INFO
+command start send
+
+2024-09-10 15:26:03,605 - controller.telegram - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9972.2)>
+
+2024-09-10 15:26:05,941 - controller.telegram - INFO
+callback user_keys send
+
+2024-09-10 15:26:13,158 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на Месяц. Новый баланс: 9962.6 USD
+
+2024-09-10 15:26:16,429 - controller.telegram - INFO
+callback user_keys send
+
+2024-09-10 15:30:35,793 - controller.telegram - INFO
+user id - 6917690005 username - Web bot command - /start
+
+2024-09-10 15:30:37,021 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-09-10 15:30:37,021 - controller.telegram - INFO
+command start send
+
+2024-09-10 15:30:37,108 - controller.telegram - INFO
+User: <User(id=2, tg_id=6917690005, first_name='Web', balance=0.0)>
+
+2024-09-10 15:30:41,420 - controller.telegram - INFO
+callback user_keys send
+
+2024-09-10 15:33:02,504 - controller.telegram - INFO
+callback user_keys send
+
+2024-09-10 15:33:18,842 - controller.telegram - INFO
+callback user_keys send
+
+2024-09-10 15:33:48,977 - controller.telegram - INFO
+callback user_keys send
+
+2024-09-10 15:33:56,478 - controller.telegram - INFO
+user id - 6954670200 username - tess.web bot command - /start
+
+2024-09-10 15:33:57,233 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-09-10 15:33:57,234 - controller.telegram - INFO
+command start send
+
+2024-09-10 15:33:57,272 - controller.telegram - INFO
+User: <User(id=3, tg_id=6954670200, first_name='tess.web', balance=0.0)>
+
+2024-09-10 15:34:13,715 - controller.telegram - INFO
+callback user_balance send
+
+2024-09-10 15:34:37,975 - controller.telegram - INFO
+callback user_balance send
+
+2024-09-10 15:34:41,153 - controller.telegram - INFO
+callback user_balance send
+
+2024-09-10 15:34:50,843 - controller.telegram - INFO
+callback top_up_USDT_5 send
+
+2024-09-10 15:34:52,595 - controller.telegram - INFO
+Созданный инвойс:
+{
+    "id": "6106297637",
+    "token_id": "6005382303",
+    "order_id": "order_6954670200_USDT_5_153450_0910",
+    "order_description": null,
+    "price_amount": "5",
+    "price_currency": "USD",
+    "pay_currency": "USDTTRC20",
+    "ipn_callback_url": "https://rationally-dynamic-bison.ngrok-free.app/api/payment/callback",
+    "invoice_url": "https://nowpayments.io/payment/?iid=6106297637",
+    "success_url": "https://t.me/test_1337_1488_bot",
+    "cancel_url": "https://t.me/test_1337_1488_bot",
+    "customer_email": null,
+    "partially_paid_url": null,
+    "payout_currency": null,
+    "created_at": "2024-09-10T15:34:52.578Z",
+    "updated_at": "2024-09-10T15:34:52.578Z",
+    "is_fixed_rate": false,
+    "is_fee_paid_by_user": false
+}
+
+2024-09-10 15:36:55,180 - controller.telegram - INFO
+callback top_up_USDT_10 send
+
+2024-09-10 15:36:56,227 - controller.telegram - INFO
+Созданный инвойс:
+{
+    "id": "4962885345",
+    "token_id": "6005382303",
+    "order_id": "order_6954670200_USDT_10_153655_0910",
+    "order_description": null,
+    "price_amount": "10",
+    "price_currency": "USD",
+    "pay_currency": "USDTTRC20",
+    "ipn_callback_url": "https://rationally-dynamic-bison.ngrok-free.app/api/payment/callback",
+    "invoice_url": "https://nowpayments.io/payment/?iid=4962885345",
+    "success_url": "https://t.me/test_1337_1488_bot",
+    "cancel_url": "https://t.me/test_1337_1488_bot",
+    "customer_email": null,
+    "partially_paid_url": null,
+    "payout_currency": null,
+    "created_at": "2024-09-10T15:36:56.204Z",
+    "updated_at": "2024-09-10T15:36:56.204Z",
+    "is_fixed_rate": false,
+    "is_fee_paid_by_user": false
+}
+
+2024-09-10 15:37:43,953 - controller.telegram - INFO
+user id - 6954670200 username - tess.web bot command - /start
+
+2024-09-10 15:37:44,676 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-09-10 15:37:44,677 - controller.telegram - INFO
+command start send
+
+2024-09-10 15:37:44,782 - controller.telegram - INFO
+User: <User(id=3, tg_id=6954670200, first_name='tess.web', balance=10000.0)>
+
+2024-09-10 15:37:47,226 - controller.telegram - INFO
+callback user_balance send
+
+2024-09-10 15:37:56,920 - controller.telegram - INFO
+Пользователь 6954670200 приобрел ключ на День. Новый баланс: 9999.0 USD
+
+2024-09-10 15:38:04,556 - controller.telegram - INFO
+callback user_keys send
+
+2024-09-11 11:03:40,338 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-09-11 11:03:42,412 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-09-11 11:03:42,413 - controller.telegram - INFO
+command start send
+
+2024-09-11 11:03:42,512 - controller.telegram - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9967.4)>
+
+2024-09-11 11:05:18,688 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-09-11 11:05:18,947 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-09-11 11:05:18,948 - controller.telegram - INFO
+command start send
+
+2024-09-11 11:05:19,002 - controller.telegram - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9967.4)>
+
+2024-09-11 11:05:53,260 - controller.telegram - INFO
+user id - 105788684 username - Sergio bot command - /start
+
+2024-09-11 11:05:54,627 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-09-11 11:05:54,628 - controller.telegram - INFO
+command start send
+
+2024-09-11 11:05:54,657 - controller.telegram - INFO
+User: <User(id=4, tg_id=105788684, first_name='Sergio', balance=0.0)>
+
+2024-09-11 11:06:02,528 - controller.telegram - INFO
+user id - 152570569 username - P bot command - /start
+
+2024-09-11 11:06:03,221 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-09-11 11:06:03,222 - controller.telegram - INFO
+command start send
+
+2024-09-11 11:06:03,230 - controller.telegram - INFO
+User: <User(id=5, tg_id=152570569, first_name='P', balance=0.0)>
+
+2024-09-11 13:46:02,010 - controller.telegram - INFO
+Пользователь 152570569 приобрел ключ на День. Новый баланс: 9999.0 USD
+
+2024-09-11 13:49:33,541 - controller.telegram - WARNING
+There is no reply markup for delete: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+2024-09-11 13:49:41,111 - controller.telegram - INFO
+callback top_up_USDT_10 send
+
+2024-09-11 13:49:42,079 - controller.telegram - INFO
+Созданный инвойс:
+{
+    "id": "6149244266",
+    "token_id": "6005382303",
+    "order_id": "order_152570569_USDT_10_134941_0911",
+    "order_description": null,
+    "price_amount": "10",
+    "price_currency": "USD",
+    "pay_currency": "USDTTRC20",
+    "ipn_callback_url": "https://rationally-dynamic-bison.ngrok-free.app/api/payment/callback",
+    "invoice_url": "https://nowpayments.io/payment/?iid=6149244266",
+    "success_url": "https://t.me/test_1337_1488_bot",
+    "cancel_url": "https://t.me/test_1337_1488_bot",
+    "customer_email": null,
+    "partially_paid_url": null,
+    "payout_currency": null,
+    "created_at": "2024-09-11T13:49:42.153Z",
+    "updated_at": "2024-09-11T13:49:42.153Z",
+    "is_fixed_rate": false,
+    "is_fee_paid_by_user": false
+}
+
+2024-09-11 13:58:25,170 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-09-11 13:58:26,564 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-09-11 13:58:26,565 - controller.telegram - INFO
+command start send
+
+2024-09-11 13:58:26,589 - controller.telegram - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9967.4)>
+
+2024-09-11 13:58:33,031 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на Год. Новый баланс: 9708.199999999999 USD
+
+2024-09-11 14:35:59,289 - controller.telegram - INFO
+Пользователь 152570569 приобрел ключ на День. Новый баланс: 9998.5 USD
+
+2024-09-11 14:37:18,235 - controller.telegram - INFO
+callback user_keys send
+
+2024-09-11 14:41:33,136 - controller.telegram - INFO
+Пользователь 152570569 приобрел ключ на День. Новый баланс: 9998.0 USD
+
+2024-09-11 15:01:12,828 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на Месяц. Новый баланс: 9828.2 USD
+
+2024-09-11 15:09:12,710 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на Год. Новый баланс: 9573.8 USD
+
+2024-09-11 15:12:42,628 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на Год. Новый баланс: 9444.199999999999 USD
+
+2024-09-11 15:15:42,608 - controller.telegram - INFO
+Пользователь 152570569 приобрел ключ на День. Новый баланс: 9997.5 USD
+
+2024-09-16 14:16:33,070 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-09-16 14:16:33,805 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-09-16 14:16:33,806 - controller.telegram - INFO
+command start send
+
+2024-09-16 14:16:33,898 - controller.telegram - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=9573.8)>
+
+2024-09-16 14:16:42,529 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на День. Новый баланс: 9572.8 USD
+
+2024-09-16 14:18:01,102 - controller.telegram - INFO
+callback user_keys send
+
+2024-09-16 14:34:01,972 - controller.telegram - INFO
+Пользователь 324354843 приобрел ключ на День. Новый баланс: 9572.3 USD
+
+2024-09-16 14:49:07,273 - controller.telegram - INFO
+Current time: 2024-09-16 14:49:07.271915
+
+2024-09-16 14:49:07,273 - controller.telegram - INFO
+Current time: 2024-09-16 14:49:07.271915
+
+2024-09-16 14:49:07,278 - controller.telegram - INFO
+Expiration threshold: 2024-09-16 15:49:07.271678
+
+2024-09-16 14:49:07,278 - controller.telegram - INFO
+Expiration threshold: 2024-09-16 15:49:07.271678
+
+2024-09-16 14:49:07,366 - controller.telegram - INFO
+Total keys in database: 13
+
+2024-09-16 14:49:07,366 - controller.telegram - INFO
+Total keys in database: 13
+
+2024-09-16 14:49:07,366 - controller.telegram - INFO
+Key ID: 1, Expires at: 2024-09-11 15:24:11
+
+2024-09-16 14:49:07,366 - controller.telegram - INFO
+Key ID: 1, Expires at: 2024-09-11 15:24:11
+
+2024-09-16 14:49:07,367 - controller.telegram - INFO
+Key ID: 2, Expires at: 2024-05-05 15:26:12
+
+2024-09-16 14:49:07,367 - controller.telegram - INFO
+Key ID: 2, Expires at: 2024-05-05 15:26:12
+
+2024-09-16 14:49:07,367 - controller.telegram - INFO
+Key ID: 3, Expires at: 2024-09-11 15:37:56
+
+2024-09-16 14:49:07,367 - controller.telegram - INFO
+Key ID: 3, Expires at: 2024-09-11 15:37:56
+
+2024-09-16 14:49:07,367 - controller.telegram - INFO
+Key ID: 4, Expires at: 2024-09-12 13:46:01
+
+2024-09-16 14:49:07,367 - controller.telegram - INFO
+Key ID: 4, Expires at: 2024-09-12 13:46:01
+
+2024-09-16 14:49:07,367 - controller.telegram - INFO
+Key ID: 5, Expires at: 2025-09-11 13:58:32
+
+2024-09-16 14:49:07,367 - controller.telegram - INFO
+Key ID: 5, Expires at: 2025-09-11 13:58:32
+
+2024-09-16 14:49:07,367 - controller.telegram - INFO
+Key ID: 6, Expires at: 2024-09-12 14:35:58
+
+2024-09-16 14:49:07,367 - controller.telegram - INFO
+Key ID: 6, Expires at: 2024-09-12 14:35:58
+
+2024-09-16 14:49:07,368 - controller.telegram - INFO
+Key ID: 7, Expires at: 2024-09-12 14:41:32
+
+2024-09-16 14:49:07,368 - controller.telegram - INFO
+Key ID: 7, Expires at: 2024-09-12 14:41:32
+
+2024-09-16 14:49:07,368 - controller.telegram - INFO
+Key ID: 8, Expires at: 2024-10-11 15:01:11
+
+2024-09-16 14:49:07,368 - controller.telegram - INFO
+Key ID: 8, Expires at: 2024-10-11 15:01:11
+
+2024-09-16 14:49:07,368 - controller.telegram - INFO
+Key ID: 9, Expires at: 2025-09-11 15:09:11
+
+2024-09-16 14:49:07,368 - controller.telegram - INFO
+Key ID: 9, Expires at: 2025-09-11 15:09:11
+
+2024-09-16 14:49:07,368 - controller.telegram - INFO
+Key ID: 10, Expires at: 2025-09-11 15:12:41
+
+2024-09-16 14:49:07,368 - controller.telegram - INFO
+Key ID: 10, Expires at: 2025-09-11 15:12:41
+
+2024-09-16 14:49:07,368 - controller.telegram - INFO
+Key ID: 11, Expires at: 2024-09-12 15:15:41
+
+2024-09-16 14:49:07,368 - controller.telegram - INFO
+Key ID: 11, Expires at: 2024-09-12 15:15:41
+
+2024-09-16 14:49:07,368 - controller.telegram - INFO
+Key ID: 12, Expires at: 2024-09-16 18:00:40
+
+2024-09-16 14:49:07,368 - controller.telegram - INFO
+Key ID: 12, Expires at: 2024-09-16 18:00:40
+
+2024-09-16 14:49:07,369 - controller.telegram - INFO
+Key ID: 13, Expires at: 2024-09-17 14:34:01
+
+2024-09-16 14:49:07,369 - controller.telegram - INFO
+Key ID: 13, Expires at: 2024-09-17 14:34:01
+
+2024-09-16 14:49:07,371 - controller.telegram - INFO
+Keys expiring soon: 0
+
+2024-09-16 14:49:07,371 - controller.telegram - INFO
+Keys expiring soon: 0
+
+2024-09-16 14:50:07,267 - controller.telegram - INFO
+Current time: 2024-09-16 14:50:07.266334
+
+2024-09-16 14:50:07,267 - controller.telegram - INFO
+Current time: 2024-09-16 14:50:07.266334
+
+2024-09-16 14:50:07,273 - controller.telegram - INFO
+Expiration threshold: 2024-09-16 15:50:07.266037
+
+2024-09-16 14:50:07,273 - controller.telegram - INFO
+Expiration threshold: 2024-09-16 15:50:07.266037
+
+2024-09-16 14:50:07,294 - controller.telegram - INFO
+Total keys in database: 13
+
+2024-09-16 14:50:07,294 - controller.telegram - INFO
+Total keys in database: 13
+
+2024-09-16 14:50:07,295 - controller.telegram - INFO
+Key ID: 1, Expires at: 2024-09-11 15:24:11
+
+2024-09-16 14:50:07,295 - controller.telegram - INFO
+Key ID: 1, Expires at: 2024-09-11 15:24:11
+
+2024-09-16 14:50:07,296 - controller.telegram - INFO
+Key ID: 2, Expires at: 2024-05-05 15:26:12
+
+2024-09-16 14:50:07,296 - controller.telegram - INFO
+Key ID: 2, Expires at: 2024-05-05 15:26:12
+
+2024-09-16 14:50:07,296 - controller.telegram - INFO
+Key ID: 3, Expires at: 2024-09-11 15:37:56
+
+2024-09-16 14:50:07,296 - controller.telegram - INFO
+Key ID: 3, Expires at: 2024-09-11 15:37:56
+
+2024-09-16 14:50:07,296 - controller.telegram - INFO
+Key ID: 4, Expires at: 2024-09-12 13:46:01
+
+2024-09-16 14:50:07,296 - controller.telegram - INFO
+Key ID: 4, Expires at: 2024-09-12 13:46:01
+
+2024-09-16 14:50:07,296 - controller.telegram - INFO
+Key ID: 5, Expires at: 2025-09-11 13:58:32
+
+2024-09-16 14:50:07,296 - controller.telegram - INFO
+Key ID: 5, Expires at: 2025-09-11 13:58:32
+
+2024-09-16 14:50:07,297 - controller.telegram - INFO
+Key ID: 6, Expires at: 2024-09-12 14:35:58
+
+2024-09-16 14:50:07,297 - controller.telegram - INFO
+Key ID: 6, Expires at: 2024-09-12 14:35:58
+
+2024-09-16 14:50:07,297 - controller.telegram - INFO
+Key ID: 7, Expires at: 2024-09-12 14:41:32
+
+2024-09-16 14:50:07,297 - controller.telegram - INFO
+Key ID: 7, Expires at: 2024-09-12 14:41:32
+
+2024-09-16 14:50:07,297 - controller.telegram - INFO
+Key ID: 8, Expires at: 2024-10-11 15:01:11
+
+2024-09-16 14:50:07,297 - controller.telegram - INFO
+Key ID: 8, Expires at: 2024-10-11 15:01:11
+
+2024-09-16 14:50:07,298 - controller.telegram - INFO
+Key ID: 9, Expires at: 2025-09-11 15:09:11
+
+2024-09-16 14:50:07,298 - controller.telegram - INFO
+Key ID: 9, Expires at: 2025-09-11 15:09:11
+
+2024-09-16 14:50:07,298 - controller.telegram - INFO
+Key ID: 10, Expires at: 2025-09-11 15:12:41
+
+2024-09-16 14:50:07,298 - controller.telegram - INFO
+Key ID: 10, Expires at: 2025-09-11 15:12:41
+
+2024-09-16 14:50:07,299 - controller.telegram - INFO
+Key ID: 11, Expires at: 2024-09-12 15:15:41
+
+2024-09-16 14:50:07,299 - controller.telegram - INFO
+Key ID: 11, Expires at: 2024-09-12 15:15:41
+
+2024-09-16 14:50:07,299 - controller.telegram - INFO
+Key ID: 12, Expires at: 2024-09-16 18:00:40
+
+2024-09-16 14:50:07,299 - controller.telegram - INFO
+Key ID: 12, Expires at: 2024-09-16 18:00:40
+
+2024-09-16 14:50:07,299 - controller.telegram - INFO
+Key ID: 13, Expires at: 2024-09-17 14:34:01
+
+2024-09-16 14:50:07,299 - controller.telegram - INFO
+Key ID: 13, Expires at: 2024-09-17 14:34:01
+
+2024-09-16 14:50:07,311 - controller.telegram - INFO
+Keys expiring soon: 0
+
+2024-09-16 14:50:07,311 - controller.telegram - INFO
+Keys expiring soon: 0
+
+2024-09-16 14:51:07,268 - controller.telegram - INFO
+Current time: 2024-09-16 14:51:07.267489
+
+2024-09-16 14:51:07,268 - controller.telegram - INFO
+Current time: 2024-09-16 14:51:07.267489
+
+2024-09-16 14:51:07,274 - controller.telegram - INFO
+Expiration threshold: 2024-09-16 15:51:07.267237
+
+2024-09-16 14:51:07,274 - controller.telegram - INFO
+Expiration threshold: 2024-09-16 15:51:07.267237
+
+2024-09-16 14:51:07,291 - controller.telegram - INFO
+Total keys in database: 13
+
+2024-09-16 14:51:07,291 - controller.telegram - INFO
+Total keys in database: 13
+
+2024-09-16 14:51:07,292 - controller.telegram - INFO
+Key ID: 1, Expires at: 2024-09-11 15:24:11
+
+2024-09-16 14:51:07,292 - controller.telegram - INFO
+Key ID: 1, Expires at: 2024-09-11 15:24:11
+
+2024-09-16 14:51:07,292 - controller.telegram - INFO
+Key ID: 2, Expires at: 2024-05-05 15:26:12
+
+2024-09-16 14:51:07,292 - controller.telegram - INFO
+Key ID: 2, Expires at: 2024-05-05 15:26:12
+
+2024-09-16 14:51:07,292 - controller.telegram - INFO
+Key ID: 3, Expires at: 2024-09-11 15:37:56
+
+2024-09-16 14:51:07,292 - controller.telegram - INFO
+Key ID: 3, Expires at: 2024-09-11 15:37:56
+
+2024-09-16 14:51:07,293 - controller.telegram - INFO
+Key ID: 4, Expires at: 2024-09-12 13:46:01
+
+2024-09-16 14:51:07,293 - controller.telegram - INFO
+Key ID: 4, Expires at: 2024-09-12 13:46:01
+
+2024-09-16 14:51:07,293 - controller.telegram - INFO
+Key ID: 5, Expires at: 2025-09-11 13:58:32
+
+2024-09-16 14:51:07,293 - controller.telegram - INFO
+Key ID: 5, Expires at: 2025-09-11 13:58:32
+
+2024-09-16 14:51:07,294 - controller.telegram - INFO
+Key ID: 6, Expires at: 2024-09-12 14:35:58
+
+2024-09-16 14:51:07,294 - controller.telegram - INFO
+Key ID: 6, Expires at: 2024-09-12 14:35:58
+
+2024-09-16 14:51:07,294 - controller.telegram - INFO
+Key ID: 7, Expires at: 2024-09-12 14:41:32
+
+2024-09-16 14:51:07,294 - controller.telegram - INFO
+Key ID: 7, Expires at: 2024-09-12 14:41:32
+
+2024-09-16 14:51:07,294 - controller.telegram - INFO
+Key ID: 8, Expires at: 2024-10-11 15:01:11
+
+2024-09-16 14:51:07,294 - controller.telegram - INFO
+Key ID: 8, Expires at: 2024-10-11 15:01:11
+
+2024-09-16 14:51:07,295 - controller.telegram - INFO
+Key ID: 9, Expires at: 2025-09-11 15:09:11
+
+2024-09-16 14:51:07,295 - controller.telegram - INFO
+Key ID: 9, Expires at: 2025-09-11 15:09:11
+
+2024-09-16 14:51:07,295 - controller.telegram - INFO
+Key ID: 10, Expires at: 2025-09-11 15:12:41
+
+2024-09-16 14:51:07,295 - controller.telegram - INFO
+Key ID: 10, Expires at: 2025-09-11 15:12:41
+
+2024-09-16 14:51:07,295 - controller.telegram - INFO
+Key ID: 11, Expires at: 2024-09-12 15:15:41
+
+2024-09-16 14:51:07,295 - controller.telegram - INFO
+Key ID: 11, Expires at: 2024-09-12 15:15:41
+
+2024-09-16 14:51:07,296 - controller.telegram - INFO
+Key ID: 12, Expires at: 2024-09-16 18:00:40
+
+2024-09-16 14:51:07,296 - controller.telegram - INFO
+Key ID: 12, Expires at: 2024-09-16 18:00:40
+
+2024-09-16 14:51:07,296 - controller.telegram - INFO
+Key ID: 13, Expires at: 2024-09-17 14:34:01
+
+2024-09-16 14:51:07,296 - controller.telegram - INFO
+Key ID: 13, Expires at: 2024-09-17 14:34:01
+
+2024-09-16 14:51:07,300 - controller.telegram - INFO
+Keys expiring soon: 0
+
+2024-09-16 14:51:07,300 - controller.telegram - INFO
+Keys expiring soon: 0
+
+2024-09-30 08:27:09,413 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-09-30 08:27:13,070 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-09-30 08:27:13,071 - controller.telegram - INFO
+command start send
+
+2024-09-30 08:36:32,191 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-09-30 08:36:34,198 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-09-30 08:36:34,198 - controller.telegram - INFO
+command start send
+
+2024-09-30 08:36:34,218 - controller.telegram - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=0.0)>
+
+2024-09-30 08:37:25,211 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-09-30 08:37:25,661 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-09-30 08:37:25,662 - controller.telegram - INFO
+command start send
+
+2024-09-30 08:37:25,754 - controller.telegram - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=0.0)>
+
+2024-09-30 08:37:28,846 - controller.telegram - INFO
+callback user_keys send
+
