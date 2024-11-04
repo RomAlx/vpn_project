@@ -697,3 +697,298 @@ User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=0.0)>
 2024-09-30 08:37:28,846 - controller.telegram - INFO
 callback user_keys send
 
+2024-11-04 13:23:57,268 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-11-04 13:23:57,588 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-11-04 13:23:57,588 - controller.telegram - INFO
+command start send
+
+2024-11-04 13:23:57,960 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-11-04 13:23:58,331 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-11-04 13:23:58,331 - controller.telegram - INFO
+command start send
+
+2024-11-04 13:25:40,379 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-11-04 13:25:42,003 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-11-04 13:25:42,003 - controller.telegram - INFO
+command start send
+
+2024-11-04 13:25:42,244 - controller.telegram - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=0.0)>
+
+2024-11-04 13:25:47,401 - controller.telegram - INFO
+callback user_balance send
+
+2024-11-04 13:25:54,964 - controller.telegram - INFO
+Создание платежа: currency=USDT, amount=10
+
+2024-11-04 13:25:55,959 - controller.telegram - INFO
+Создан инвойс:
+{
+    "id": "4969303035",
+    "token_id": "5086697212",
+    "order_id": "order_324354843_USDT_10_132554_1104",
+    "order_description": null,
+    "price_amount": "10",
+    "price_currency": "USD",
+    "pay_currency": "USDTTRC20",
+    "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback",
+    "invoice_url": "https://nowpayments.io/payment/?iid=4969303035",
+    "success_url": "https://t.me/test_1337_1488_bot",
+    "cancel_url": "https://t.me/test_1337_1488_bot",
+    "customer_email": null,
+    "partially_paid_url": null,
+    "payout_currency": null,
+    "created_at": "2024-11-04T13:25:56.030Z",
+    "updated_at": "2024-11-04T13:25:56.030Z",
+    "is_fixed_rate": false,
+    "is_fee_paid_by_user": false
+}
+
+2024-11-04 13:42:17,208 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-11-04 13:42:18,912 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-11-04 13:42:18,913 - controller.telegram - INFO
+command start send
+
+2024-11-04 13:42:18,965 - controller.telegram - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=0.0)>
+
+2024-11-04 13:42:22,195 - controller.telegram - INFO
+callback user_balance send
+
+2024-11-04 13:42:32,239 - controller.telegram - INFO
+Создание платежа: currency=USDT, amount=10
+
+2024-11-04 13:42:33,371 - controller.telegram - ERROR
+Ошибка при создании платежа: 400 Client Error: Bad Request for url: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 13:50:50,953 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-11-04 13:50:51,862 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-11-04 13:50:51,863 - controller.telegram - INFO
+command start send
+
+2024-11-04 13:51:51,259 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-11-04 13:51:52,505 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-11-04 13:51:52,505 - controller.telegram - INFO
+command start send
+
+2024-11-04 13:51:52,660 - controller.telegram - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=0.0)>
+
+2024-11-04 13:51:55,951 - controller.telegram - INFO
+callback user_balance send
+
+2024-11-04 13:52:14,829 - controller.telegram - INFO
+Создание платежа: currency=USDT, amount=10
+
+2024-11-04 13:52:16,323 - controller.telegram - ERROR
+Ошибка при создании платежа: 403 Client Error: Forbidden for url: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:01:42,186 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-11-04 14:01:43,118 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-11-04 14:01:43,118 - controller.telegram - INFO
+command start send
+
+2024-11-04 14:01:43,313 - controller.telegram - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=0.0)>
+
+2024-11-04 14:01:51,044 - controller.telegram - INFO
+Создание платежа: currency=USDT, amount=10
+
+2024-11-04 14:01:51,882 - controller.telegram - ERROR
+Ошибка при создании платежа: 400 Client Error: Bad Request for url: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:03:11,208 - controller.telegram - INFO
+Создание платежа: currency=USDT, amount=10
+
+2024-11-04 14:03:12,269 - controller.telegram - ERROR
+Ошибка валидации: Missing required fields in API response: ['payment_id']
+
+2024-11-04 14:04:55,659 - controller.telegram - INFO
+Создание платежа: currency=USDT, amount=10
+
+2024-11-04 14:04:56,728 - controller.telegram - INFO
+Создан инвойс:
+{
+    "id": "5288507938",
+    "token_id": "4790158353",
+    "order_id": "order_324354843_USDT_10_140455_1104",
+    "order_description": null,
+    "price_amount": "10",
+    "price_currency": "USD",
+    "pay_currency": "USDTTRC20",
+    "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback",
+    "invoice_url": "https://sandbox.nowpayments.io/payment/?iid=5288507938",
+    "success_url": "https://t.me/your_dev_bot",
+    "cancel_url": "https://t.me/your_dev_bot",
+    "partially_paid_url": null,
+    "payout_currency": null,
+    "created_at": "2024-11-04T14:04:56.669Z",
+    "updated_at": "2024-11-04T14:04:56.669Z",
+    "is_fixed_rate": true,
+    "is_fee_paid_by_user": true,
+    "payment_id": "4790158353"
+}
+
+2024-11-04 14:12:39,379 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-11-04 14:12:40,566 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-11-04 14:12:40,567 - controller.telegram - INFO
+command start send
+
+2024-11-04 14:12:40,644 - controller.telegram - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=20.0)>
+
+2024-11-04 14:12:43,578 - controller.telegram - INFO
+callback user_balance send
+
+2024-11-04 14:12:50,502 - controller.telegram - INFO
+Создание платежа: currency=USDT, amount=10
+
+2024-11-04 14:12:51,388 - controller.telegram - INFO
+Создан инвойс:
+{
+    "id": "4585636141",
+    "token_id": "4790158353",
+    "order_id": "order_324354843_USDT_10_141250_1104",
+    "order_description": null,
+    "price_amount": "10",
+    "price_currency": "USD",
+    "pay_currency": "USDTTRC20",
+    "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback",
+    "invoice_url": "https://sandbox.nowpayments.io/payment/?iid=4585636141",
+    "success_url": "https://t.me/your_dev_bot",
+    "cancel_url": "https://t.me/your_dev_bot",
+    "partially_paid_url": null,
+    "payout_currency": null,
+    "created_at": "2024-11-04T14:12:51.524Z",
+    "updated_at": "2024-11-04T14:12:51.524Z",
+    "is_fixed_rate": true,
+    "is_fee_paid_by_user": true,
+    "payment_id": "4790158353"
+}
+
+2024-11-04 14:16:09,374 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-11-04 14:16:11,083 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-11-04 14:16:11,089 - controller.telegram - INFO
+command start send
+
+2024-11-04 14:16:13,545 - controller.telegram - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=30.0)>
+
+2024-11-04 14:16:27,983 - controller.telegram - INFO
+Создание платежа: currency=TON, amount=10
+
+2024-11-04 14:16:29,327 - controller.telegram - INFO
+Создан инвойс:
+{
+    "id": "4928787311",
+    "token_id": "4790158353",
+    "order_id": "order_324354843_TON_10_141628_1104",
+    "order_description": null,
+    "price_amount": "10",
+    "price_currency": "USD",
+    "pay_currency": "TON",
+    "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback",
+    "invoice_url": "https://sandbox.nowpayments.io/payment/?iid=4928787311",
+    "success_url": "https://t.me/test_1337_1488_bot",
+    "cancel_url": "https://t.me/test_1337_1488_bot",
+    "partially_paid_url": null,
+    "payout_currency": null,
+    "created_at": "2024-11-04T14:16:29.233Z",
+    "updated_at": "2024-11-04T14:16:29.233Z",
+    "is_fixed_rate": true,
+    "is_fee_paid_by_user": true,
+    "payment_id": "4790158353"
+}
+
+2024-11-04 14:17:59,812 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-11-04 14:18:00,719 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-11-04 14:18:00,720 - controller.telegram - INFO
+command start send
+
+2024-11-04 14:18:00,728 - controller.telegram - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=40.0)>
+
+2024-11-04 14:18:03,541 - controller.telegram - INFO
+callback user_balance send
+
+2024-11-04 14:18:12,777 - controller.telegram - INFO
+Создание платежа: currency=USDT, amount=25
+
+2024-11-04 14:18:13,998 - controller.telegram - INFO
+Создан инвойс:
+{
+    "id": "4464468690",
+    "token_id": "4790158353",
+    "order_id": "order_324354843_USDT_25_141812_1104",
+    "order_description": null,
+    "price_amount": "25",
+    "price_currency": "USD",
+    "pay_currency": "USDTTRC20",
+    "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback",
+    "invoice_url": "https://sandbox.nowpayments.io/payment/?iid=4464468690",
+    "success_url": "https://t.me/test_1337_1488_bot",
+    "cancel_url": "https://t.me/test_1337_1488_bot",
+    "partially_paid_url": null,
+    "payout_currency": null,
+    "created_at": "2024-11-04T14:18:13.908Z",
+    "updated_at": "2024-11-04T14:18:13.908Z",
+    "is_fixed_rate": true,
+    "is_fee_paid_by_user": true,
+    "payment_id": "4790158353"
+}
+
+2024-11-04 14:19:39,430 - controller.telegram - INFO
+user id - 324354843 username - Алексей bot command - /start
+
+2024-11-04 14:19:40,387 - controller.telegram - WARNING
+There is no reply markup for delete: Message can't be edited
+
+2024-11-04 14:19:40,387 - controller.telegram - INFO
+command start send
+
+2024-11-04 14:19:40,390 - controller.telegram - INFO
+User: <User(id=1, tg_id=324354843, first_name='Алексей', balance=65.0)>
+
+2024-11-04 14:19:43,165 - controller.telegram - INFO
+callback user_balance send
+

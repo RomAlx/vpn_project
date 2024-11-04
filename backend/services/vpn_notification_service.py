@@ -39,7 +39,7 @@ class VPNNotificationService:
         print('end checking VPN keys')
 
     def start(self):
-        self.scheduler.add_job(self.check_and_notify, 'interval', minutes=1)
+        self.scheduler.add_job(self.check_and_notify, 'interval', hours=1)
         self.scheduler.start()
 
     def stop(self):

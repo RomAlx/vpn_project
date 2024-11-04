@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "Создание туннеля ngrok..."
 
-#создание через аккаунт tess.web2b@gmail.com
-ngrok http --domain=rationally-dynamic-bison.ngrok-free.app 80
+# Запуск ngrok с постоянным доменом [alexromanovsky5@gmail.com]
+ngrok http --domain=wallaby-enabling-easily.ngrok-free.app 80

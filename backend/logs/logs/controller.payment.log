@@ -1,0 +1,33 @@
+2024-11-04 14:06:16,783 - controller.payment - INFO
+Processing payment error: order_id=order_324354843_USDT_10_140455_1104
+
+2024-11-04 14:09:26,150 - controller.payment - INFO
+Processing successful payment: order_id=order_324354843_USDT_10_140455_1104, amount=10.0
+
+2024-11-04 14:09:26,234 - controller.payment - INFO
+Balance updated for user 324354843: +10.0 USD, new balance: 10.0 USD
+
+2024-11-04 14:09:26,241 - controller.payment - INFO
+Processing successful payment: order_id=order_324354843_USDT_10_140455_1104, amount=10.0
+
+2024-11-04 14:09:26,244 - controller.payment - INFO
+Balance updated for user 324354843: +10.0 USD, new balance: 20.0 USD
+
+2024-11-04 14:13:23,569 - controller.payment - INFO
+Processing successful payment: order_id=order_324354843_USDT_10_141250_1104, amount=10.0
+
+2024-11-04 14:13:23,607 - controller.payment - INFO
+Balance updated for user 324354843: +10.0 USD, new balance: 30.0 USD
+
+2024-11-04 14:17:25,100 - controller.payment - INFO
+Processing successful payment: order_id=order_324354843_TON_10_141628_1104, amount=10.0
+
+2024-11-04 14:17:25,190 - controller.payment - INFO
+Balance updated for user 324354843: +10.0 USD, new balance: 40.0 USD
+
+2024-11-04 14:19:23,246 - controller.payment - INFO
+Processing successful payment: order_id=order_324354843_USDT_25_141812_1104, amount=25.0
+
+2024-11-04 14:19:23,261 - controller.payment - INFO
+Balance updated for user 324354843: +25.0 USD, new balance: 65.0 USD
+

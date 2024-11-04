@@ -33893,3 +33893,2933 @@ Received:
 2024-09-30 08:44:55,067 - routes.api - ERROR
 Ошибка в обработке вебхука Telegram: Timed out
 
+2024-11-04 13:23:57,266 - routes.api - INFO
+Received:
+{
+    "message": {
+        "chat": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "last_name": "Романовский",
+            "type": "private",
+            "username": "AlekseyRomanovsky"
+        },
+        "date": 1730724718,
+        "entities": [
+            {
+                "length": 6,
+                "offset": 0,
+                "type": "bot_command"
+            }
+        ],
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "message_id": 2741,
+        "text": "/start"
+    },
+    "update_id": 224628271
+}
+
+2024-11-04 13:23:57,658 - routes.api - ERROR
+Ошибка в обработке вебхука Telegram: (mysql.connector.errors.ProgrammingError) 1146 (42S02): Table 'vpn_project.users' doesn't exist
+[SQL: SELECT users.id AS users_id, users.tg_id AS users_tg_id, users.first_name AS users_first_name, users.balance AS users_balance 
+FROM users 
+WHERE users.tg_id = %(tg_id_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'tg_id_1': 324354843, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2024-11-04 13:23:57,959 - routes.api - INFO
+Received:
+{
+    "message": {
+        "chat": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "last_name": "Романовский",
+            "type": "private",
+            "username": "AlekseyRomanovsky"
+        },
+        "date": 1730724762,
+        "entities": [
+            {
+                "length": 6,
+                "offset": 0,
+                "type": "bot_command"
+            }
+        ],
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "message_id": 2742,
+        "text": "/start"
+    },
+    "update_id": 224628272
+}
+
+2024-11-04 13:23:58,333 - routes.api - ERROR
+Ошибка в обработке вебхука Telegram: (mysql.connector.errors.ProgrammingError) 1146 (42S02): Table 'vpn_project.users' doesn't exist
+[SQL: SELECT users.id AS users_id, users.tg_id AS users_tg_id, users.first_name AS users_first_name, users.balance AS users_balance 
+FROM users 
+WHERE users.tg_id = %(tg_id_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'tg_id_1': 324354843, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2024-11-04 13:25:40,261 - routes.api - INFO
+Received:
+{
+    "message": {
+        "chat": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "last_name": "Романовский",
+            "type": "private",
+            "username": "AlekseyRomanovsky"
+        },
+        "date": 1730726739,
+        "entities": [
+            {
+                "length": 6,
+                "offset": 0,
+                "type": "bot_command"
+            }
+        ],
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "message_id": 2743,
+        "text": "/start"
+    },
+    "update_id": 224628273
+}
+
+2024-11-04 13:25:47,010 - routes.api - INFO
+Received:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "user_balance",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093443416769666",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730726742,
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2744,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "user_create_key",
+                            "text": "Создать ключ ⚡️"
+                        },
+                        {
+                            "callback_data": "user_keys",
+                            "text": "Мои ключи 🔑"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "user_balance",
+                            "text": "Баланс 💎"
+                        },
+                        {
+                            "callback_data": "user_top_up",
+                            "text": "Оплата 🛍"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "instruction",
+                            "text": "Инструкция 🧾"
+                        }
+                    ]
+                ]
+            },
+            "text": "LikeVPN - это сервис доступа к любимым социальным сетям и сервисам с безопасной передачей данных в зашифрованном виде.\nНастройка в 2 клика.\n🚀 Скорость от 100 Мбит/с.\n🖥 Собственные сервера: 🇩🇪 🇫🇮"
+        }
+    },
+    "update_id": 224628274
+}
+
+2024-11-04 13:25:49,084 - routes.api - INFO
+Received:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "user_top_up",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093443731619058",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730726747,
+            "entities": [
+                {
+                    "length": 11,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2745,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "user_create_key",
+                            "text": "Создать ключ ⚡️"
+                        },
+                        {
+                            "callback_data": "user_keys",
+                            "text": "Мои ключи 🔑"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "user_balance",
+                            "text": "Баланс 💎"
+                        },
+                        {
+                            "callback_data": "user_top_up",
+                            "text": "Оплата 🛍"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "instruction",
+                            "text": "Инструкция 🧾"
+                        }
+                    ]
+                ]
+            },
+            "text": "Ваш баланс: 0.0 USD"
+        }
+    },
+    "update_id": 224628275
+}
+
+2024-11-04 13:25:52,048 - routes.api - INFO
+Received:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093444700905817",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730726750,
+            "entities": [
+                {
+                    "length": 26,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2746,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT",
+                            "text": "USDT (Tether)"
+                        },
+                        {
+                            "callback_data": "top_up_TON",
+                            "text": "TON (Toncoin)"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "top_up_XMR",
+                            "text": "XMR (Monero)"
+                        },
+                        {
+                            "callback_data": "top_up_LTC",
+                            "text": "LTC (Litecoin)"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите монету пополнения"
+        }
+    },
+    "update_id": 224628276
+}
+
+2024-11-04 13:25:54,640 - routes.api - INFO
+Received:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT_10",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093446836335273",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730726752,
+            "entities": [
+                {
+                    "length": 32,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2747,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT_10",
+                            "text": "10 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_25",
+                            "text": "25 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_100",
+                            "text": "100 💲"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите сумму пополнения в USDT"
+        }
+    },
+    "update_id": 224628277
+}
+
+2024-11-04 13:27:12,827 - routes.api - INFO
+Received callback headers: {'host': 'wallaby-enabling-easily.ngrok-free.app', 'x-real-ip': '192.168.65.1', 'x-forwarded-for': '51.75.77.69, 192.168.65.1', 'x-forwarded-proto': 'http', 'connection': 'upgrade', 'content-length': '597', 'user-agent': 'NOWPayments v1.0', 'content-type': 'application/json', 'x-forwarded-host': 'wallaby-enabling-easily.ngrok-free.app', 'x-nowpayments-sig': 'a94ec750bbd1a47eb9012bf992949eb4a24134ed1e3132dcc71c9c6a6c0f40664936b3e6d2dc206a67a2a9b114ba546e381e3b3d553a1b2f3e996ef73409bd8d', 'accept-encoding': 'gzip'}
+
+2024-11-04 13:27:12,828 - routes.api - INFO
+Received callback body: {"actually_paid":0,"actually_paid_at_fiat":0,"fee":{"currency":"usdttrc20","depositFee":0,"serviceFee":0,"withdrawalFee":0},"invoice_id":4969303035,"order_description":null,"order_id":"order_324354843_USDT_10_132554_1104","outcome_amount":4.801515,"outcome_currency":"usdttrc20","parent_payment_id":null,"pay_address":"TEaryfH9VUrux5JpiAEczadAB9Emz4x5Ys","pay_amount":9.979465,"pay_currency":"usdttrc20","payin_extra_id":null,"payment_extra_ids":null,"payment_id":5987791199,"payment_status":"waiting","price_amount":10,"price_currency":"usd","purchase_id":"4514113816","updated_at":1730726830987}
+
+2024-11-04 13:27:12,829 - routes.api - ERROR
+Invalid signature. Received: a94ec750bbd1a47eb9012bf992949eb4a24134ed1e3132dcc71c9c6a6c0f40664936b3e6d2dc206a67a2a9b114ba546e381e3b3d553a1b2f3e996ef73409bd8d
+
+2024-11-04 13:27:12,829 - routes.api - ERROR
+Error in payment IPN callback processing: 401: Invalid signature
+
+2024-11-04 13:42:17,200 - routes.api - INFO
+Received Telegram webhook:
+{
+    "message": {
+        "chat": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "last_name": "Романовский",
+            "type": "private",
+            "username": "AlekseyRomanovsky"
+        },
+        "date": 1730727737,
+        "entities": [
+            {
+                "length": 6,
+                "offset": 0,
+                "type": "bot_command"
+            }
+        ],
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "message_id": 2749,
+        "text": "/start"
+    },
+    "update_id": 224628278
+}
+
+2024-11-04 13:42:21,784 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "user_balance",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093444254828484",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730727739,
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2750,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "user_create_key",
+                            "text": "Создать ключ ⚡️"
+                        },
+                        {
+                            "callback_data": "user_keys",
+                            "text": "Мои ключи 🔑"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "user_balance",
+                            "text": "Баланс 💎"
+                        },
+                        {
+                            "callback_data": "user_top_up",
+                            "text": "Оплата 🛍"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "instruction",
+                            "text": "Инструкция 🧾"
+                        }
+                    ]
+                ]
+            },
+            "text": "LikeVPN - это сервис доступа к любимым социальным сетям и сервисам с безопасной передачей данных в зашифрованном виде.\nНастройка в 2 клика.\n🚀 Скорость от 100 Мбит/с.\n🖥 Собственные сервера: 🇩🇪 🇫🇮"
+        }
+    },
+    "update_id": 224628279
+}
+
+2024-11-04 13:42:24,385 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "user_top_up",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093446499857689",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730727742,
+            "entities": [
+                {
+                    "length": 11,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2751,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "user_create_key",
+                            "text": "Создать ключ ⚡️"
+                        },
+                        {
+                            "callback_data": "user_keys",
+                            "text": "Мои ключи 🔑"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "user_balance",
+                            "text": "Баланс 💎"
+                        },
+                        {
+                            "callback_data": "user_top_up",
+                            "text": "Оплата 🛍"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "instruction",
+                            "text": "Инструкция 🧾"
+                        }
+                    ]
+                ]
+            },
+            "text": "Ваш баланс: 0.0 USD"
+        }
+    },
+    "update_id": 224628280
+}
+
+2024-11-04 13:42:28,859 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093446813665507",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730727745,
+            "entities": [
+                {
+                    "length": 26,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2752,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT",
+                            "text": "USDT (Tether)"
+                        },
+                        {
+                            "callback_data": "top_up_TON",
+                            "text": "TON (Toncoin)"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "top_up_XMR",
+                            "text": "XMR (Monero)"
+                        },
+                        {
+                            "callback_data": "top_up_LTC",
+                            "text": "LTC (Litecoin)"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите монету пополнения"
+        }
+    },
+    "update_id": 224628281
+}
+
+2024-11-04 13:42:31,912 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT_10",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093444252442447",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730727749,
+            "entities": [
+                {
+                    "length": 32,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2753,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT_10",
+                            "text": "10 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_25",
+                            "text": "25 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_100",
+                            "text": "100 💲"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите сумму пополнения в USDT"
+        }
+    },
+    "update_id": 224628282
+}
+
+2024-11-04 13:50:50,928 - routes.api - INFO
+Received Telegram webhook:
+{
+    "message": {
+        "chat": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "last_name": "Романовский",
+            "type": "private",
+            "username": "AlekseyRomanovsky"
+        },
+        "date": 1730728250,
+        "entities": [
+            {
+                "length": 6,
+                "offset": 0,
+                "type": "bot_command"
+            }
+        ],
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "message_id": 2755,
+        "text": "/start"
+    },
+    "update_id": 224628283
+}
+
+2024-11-04 13:50:51,925 - routes.api - ERROR
+Error processing Telegram webhook: (mysql.connector.errors.ProgrammingError) 1146 (42S02): Table 'vpn_project.users' doesn't exist
+[SQL: SELECT users.id AS users_id, users.tg_id AS users_tg_id, users.first_name AS users_first_name, users.balance AS users_balance 
+FROM users 
+WHERE users.tg_id = %(tg_id_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'tg_id_1': 324354843, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2024-11-04 13:51:51,172 - routes.api - INFO
+Received Telegram webhook:
+{
+    "message": {
+        "chat": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "last_name": "Романовский",
+            "type": "private",
+            "username": "AlekseyRomanovsky"
+        },
+        "date": 1730728310,
+        "entities": [
+            {
+                "length": 6,
+                "offset": 0,
+                "type": "bot_command"
+            }
+        ],
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "message_id": 2756,
+        "text": "/start"
+    },
+    "update_id": 224628284
+}
+
+2024-11-04 13:51:55,621 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "user_balance",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093444644209998",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730728313,
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2757,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "user_create_key",
+                            "text": "Создать ключ ⚡️"
+                        },
+                        {
+                            "callback_data": "user_keys",
+                            "text": "Мои ключи 🔑"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "user_balance",
+                            "text": "Баланс 💎"
+                        },
+                        {
+                            "callback_data": "user_top_up",
+                            "text": "Оплата 🛍"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "instruction",
+                            "text": "Инструкция 🧾"
+                        }
+                    ]
+                ]
+            },
+            "text": "LikeVPN - это сервис доступа к любимым социальным сетям и сервисам с безопасной передачей данных в зашифрованном виде.\nНастройка в 2 клика.\n🚀 Скорость от 100 Мбит/с.\n🖥 Собственные сервера: 🇩🇪 🇫🇮"
+        }
+    },
+    "update_id": 224628285
+}
+
+2024-11-04 13:52:09,442 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "user_top_up",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093445948855914",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730728316,
+            "entities": [
+                {
+                    "length": 11,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2758,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "user_create_key",
+                            "text": "Создать ключ ⚡️"
+                        },
+                        {
+                            "callback_data": "user_keys",
+                            "text": "Мои ключи 🔑"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "user_balance",
+                            "text": "Баланс 💎"
+                        },
+                        {
+                            "callback_data": "user_top_up",
+                            "text": "Оплата 🛍"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "instruction",
+                            "text": "Инструкция 🧾"
+                        }
+                    ]
+                ]
+            },
+            "text": "Ваш баланс: 0.0 USD"
+        }
+    },
+    "update_id": 224628286
+}
+
+2024-11-04 13:52:12,501 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093446202821948",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730728331,
+            "entities": [
+                {
+                    "length": 26,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2759,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT",
+                            "text": "USDT (Tether)"
+                        },
+                        {
+                            "callback_data": "top_up_TON",
+                            "text": "TON (Toncoin)"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "top_up_XMR",
+                            "text": "XMR (Monero)"
+                        },
+                        {
+                            "callback_data": "top_up_LTC",
+                            "text": "LTC (Litecoin)"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите монету пополнения"
+        }
+    },
+    "update_id": 224628287
+}
+
+2024-11-04 13:52:14,594 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT_10",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093445961655486",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730728333,
+            "entities": [
+                {
+                    "length": 32,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2760,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT_10",
+                            "text": "10 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_25",
+                            "text": "25 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_100",
+                            "text": "100 💲"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите сумму пополнения в USDT"
+        }
+    },
+    "update_id": 224628288
+}
+
+2024-11-04 14:01:42,182 - routes.api - INFO
+Received Telegram webhook:
+{
+    "message": {
+        "chat": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "last_name": "Романовский",
+            "type": "private",
+            "username": "AlekseyRomanovsky"
+        },
+        "date": 1730728902,
+        "entities": [
+            {
+                "length": 6,
+                "offset": 0,
+                "type": "bot_command"
+            }
+        ],
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "message_id": 2762,
+        "text": "/start"
+    },
+    "update_id": 224628289
+}
+
+2024-11-04 14:01:45,921 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "user_top_up",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093445281784571",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730728903,
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2763,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "user_create_key",
+                            "text": "Создать ключ ⚡️"
+                        },
+                        {
+                            "callback_data": "user_keys",
+                            "text": "Мои ключи 🔑"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "user_balance",
+                            "text": "Баланс 💎"
+                        },
+                        {
+                            "callback_data": "user_top_up",
+                            "text": "Оплата 🛍"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "instruction",
+                            "text": "Инструкция 🧾"
+                        }
+                    ]
+                ]
+            },
+            "text": "LikeVPN - это сервис доступа к любимым социальным сетям и сервисам с безопасной передачей данных в зашифрованном виде.\nНастройка в 2 клика.\n🚀 Скорость от 100 Мбит/с.\n🖥 Собственные сервера: 🇩🇪 🇫🇮"
+        }
+    },
+    "update_id": 224628290
+}
+
+2024-11-04 14:01:48,027 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093444297155436",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730728906,
+            "entities": [
+                {
+                    "length": 26,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2764,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT",
+                            "text": "USDT (Tether)"
+                        },
+                        {
+                            "callback_data": "top_up_TON",
+                            "text": "TON (Toncoin)"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "top_up_XMR",
+                            "text": "XMR (Monero)"
+                        },
+                        {
+                            "callback_data": "top_up_LTC",
+                            "text": "LTC (Litecoin)"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите монету пополнения"
+        }
+    },
+    "update_id": 224628291
+}
+
+2024-11-04 14:01:50,706 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT_10",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093444306897119",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730728909,
+            "entities": [
+                {
+                    "length": 32,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2765,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT_10",
+                            "text": "10 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_25",
+                            "text": "25 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_100",
+                            "text": "100 💲"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите сумму пополнения в USDT"
+        }
+    },
+    "update_id": 224628292
+}
+
+2024-11-04 14:03:04,883 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "user_top_up",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093446492639790",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730728912,
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2766,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "user_create_key",
+                            "text": "Создать ключ ⚡️"
+                        },
+                        {
+                            "callback_data": "user_keys",
+                            "text": "Мои ключи 🔑"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "user_balance",
+                            "text": "Баланс 💎"
+                        },
+                        {
+                            "callback_data": "user_top_up",
+                            "text": "Оплата 🛍"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "instruction",
+                            "text": "Инструкция 🧾"
+                        }
+                    ]
+                ]
+            },
+            "text": "❌ Произошла ошибка при создании платежа. Попробуйте позже."
+        }
+    },
+    "update_id": 224628293
+}
+
+2024-11-04 14:03:07,657 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093445886960476",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730728985,
+            "entities": [
+                {
+                    "length": 26,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2767,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT",
+                            "text": "USDT (Tether)"
+                        },
+                        {
+                            "callback_data": "top_up_TON",
+                            "text": "TON (Toncoin)"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "top_up_XMR",
+                            "text": "XMR (Monero)"
+                        },
+                        {
+                            "callback_data": "top_up_LTC",
+                            "text": "LTC (Litecoin)"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите монету пополнения"
+        }
+    },
+    "update_id": 224628294
+}
+
+2024-11-04 14:03:10,680 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT_10",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093445653906768",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730728988,
+            "entities": [
+                {
+                    "length": 32,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2768,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT_10",
+                            "text": "10 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_25",
+                            "text": "25 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_100",
+                            "text": "100 💲"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите сумму пополнения в USDT"
+        }
+    },
+    "update_id": 224628295
+}
+
+2024-11-04 14:04:30,618 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "user_top_up",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093443280436339",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730728992,
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2769,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "user_create_key",
+                            "text": "Создать ключ ⚡️"
+                        },
+                        {
+                            "callback_data": "user_keys",
+                            "text": "Мои ключи 🔑"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "user_balance",
+                            "text": "Баланс 💎"
+                        },
+                        {
+                            "callback_data": "user_top_up",
+                            "text": "Оплата 🛍"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "instruction",
+                            "text": "Инструкция 🧾"
+                        }
+                    ]
+                ]
+            },
+            "text": "⚠️ Ошибка валидации: Missing required fields in API response: 'payment_id'"
+        }
+    },
+    "update_id": 224628296
+}
+
+2024-11-04 14:04:52,533 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093445409210771",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730729072,
+            "entities": [
+                {
+                    "length": 26,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2770,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT",
+                            "text": "USDT (Tether)"
+                        },
+                        {
+                            "callback_data": "top_up_TON",
+                            "text": "TON (Toncoin)"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "top_up_XMR",
+                            "text": "XMR (Monero)"
+                        },
+                        {
+                            "callback_data": "top_up_LTC",
+                            "text": "LTC (Litecoin)"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите монету пополнения"
+        }
+    },
+    "update_id": 224628297
+}
+
+2024-11-04 14:04:55,339 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT_10",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093443944856667",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730729093,
+            "entities": [
+                {
+                    "length": 32,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2771,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT_10",
+                            "text": "10 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_25",
+                            "text": "25 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_100",
+                            "text": "100 💲"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите сумму пополнения в USDT"
+        }
+    },
+    "update_id": 224628298
+}
+
+2024-11-04 14:06:16,758 - routes.api - INFO
+Payment callback received:
+
+2024-11-04 14:06:16,762 - routes.api - INFO
+Headers: {
+  "host": "wallaby-enabling-easily.ngrok-free.app",
+  "x-real-ip": "192.168.65.1",
+  "x-forwarded-for": "195.201.2.239, 192.168.65.1",
+  "x-forwarded-proto": "http",
+  "connection": "upgrade",
+  "content-length": "599",
+  "user-agent": "NOWPayments v1.0",
+  "accept": "application/json, text/plain, */*",
+  "content-type": "application/json",
+  "x-forwarded-host": "wallaby-enabling-easily.ngrok-free.app",
+  "x-nowpayments-sig": "bf3bea547e9d41d59327e32cf2840704c105a6c0b4595c2df93edf5e3c7ab73e62f980454dc5cad2ad577b66ebb39139f5cc4a09cbf8f9ef6101110216931a6e",
+  "accept-encoding": "gzip"
+}
+
+2024-11-04 14:06:16,763 - routes.api - INFO
+Body: {"actually_paid":0,"actually_paid_at_fiat":0,"fee":{"currency":"usdttrc20","depositFee":0,"serviceFee":0,"withdrawalFee":0},"invoice_id":5288507938,"order_description":null,"order_id":"order_324354843_USDT_10_140455_1104","outcome_amount":12.564784,"outcome_currency":"usdttrc20","parent_payment_id":null,"pay_address":"TKdTzQXDnFa6BjSWv92pGKKZjp4FkExXKD","pay_amount":17.85857,"pay_currency":"usdttrc20","payin_extra_id":null,"payment_extra_ids":null,"payment_id":4892013776,"payment_status":"finished","price_amount":10,"price_currency":"usd","purchase_id":"5093349283","updated_at":1730729175746}
+
+2024-11-04 14:06:16,782 - routes.api - INFO
+Processing payment data: {
+  "actually_paid": 0,
+  "actually_paid_at_fiat": 0,
+  "fee": {
+    "currency": "usdttrc20",
+    "depositFee": 0,
+    "serviceFee": 0,
+    "withdrawalFee": 0
+  },
+  "invoice_id": 5288507938,
+  "order_description": null,
+  "order_id": "order_324354843_USDT_10_140455_1104",
+  "outcome_amount": 12.564784,
+  "outcome_currency": "usdttrc20",
+  "parent_payment_id": null,
+  "pay_address": "TKdTzQXDnFa6BjSWv92pGKKZjp4FkExXKD",
+  "pay_amount": 17.85857,
+  "pay_currency": "usdttrc20",
+  "payin_extra_id": null,
+  "payment_extra_ids": null,
+  "payment_id": 4892013776,
+  "payment_status": "finished",
+  "price_amount": 10,
+  "price_currency": "usd",
+  "purchase_id": "5093349283",
+  "updated_at": 1730729175746
+}
+
+2024-11-04 14:06:16,782 - routes.api - WARNING
+Partial payment detected: expected 17.85857, got 0.0 usdttrc20
+
+2024-11-04 14:09:26,145 - routes.api - INFO
+Received payment callback:
+
+2024-11-04 14:09:26,148 - routes.api - INFO
+Headers: {"host": "wallaby-enabling-easily.ngrok-free.app", "x-real-ip": "192.168.65.1", "x-forwarded-for": "195.201.2.239, 192.168.65.1", "x-forwarded-proto": "http", "connection": "upgrade", "content-length": "600", "user-agent": "NOWPayments v1.0", "accept": "application/json, text/plain, */*", "content-type": "application/json", "x-forwarded-host": "wallaby-enabling-easily.ngrok-free.app", "x-nowpayments-sig": "a2513de757fead6dbe78c2f5cbc53284d0b757c36d8c04bd14bf1873d0b476a529a789f9882c2c0533775e656b29b37a6a3a56227f90dbf1cb420ca1c02b667a", "accept-encoding": "gzip"}
+
+2024-11-04 14:09:26,148 - routes.api - INFO
+Body: {"actually_paid":0,"actually_paid_at_fiat":0,"fee":{"currency":"usdttrc20","depositFee":0,"serviceFee":0,"withdrawalFee":0},"invoice_id":5288507938,"order_description":null,"order_id":"order_324354843_USDT_10_140455_1104","outcome_amount":12.541015,"outcome_currency":"usdttrc20","parent_payment_id":null,"pay_address":"TWAZRaK1mhDREoXRtxi9Njf4yz5VE2m84F","pay_amount":17.834561,"pay_currency":"usdttrc20","payin_extra_id":null,"payment_extra_ids":null,"payment_id":6035612877,"payment_status":"finished","price_amount":10,"price_currency":"usd","purchase_id":"4600702883","updated_at":1730729365016}
+
+2024-11-04 14:09:26,149 - routes.api - INFO
+Processing payment data: {
+  "actually_paid": 0,
+  "actually_paid_at_fiat": 0,
+  "fee": {
+    "currency": "usdttrc20",
+    "depositFee": 0,
+    "serviceFee": 0,
+    "withdrawalFee": 0
+  },
+  "invoice_id": 5288507938,
+  "order_description": null,
+  "order_id": "order_324354843_USDT_10_140455_1104",
+  "outcome_amount": 12.541015,
+  "outcome_currency": "usdttrc20",
+  "parent_payment_id": null,
+  "pay_address": "TWAZRaK1mhDREoXRtxi9Njf4yz5VE2m84F",
+  "pay_amount": 17.834561,
+  "pay_currency": "usdttrc20",
+  "payin_extra_id": null,
+  "payment_extra_ids": null,
+  "payment_id": 6035612877,
+  "payment_status": "finished",
+  "price_amount": 10,
+  "price_currency": "usd",
+  "purchase_id": "4600702883",
+  "updated_at": 1730729365016
+}
+
+2024-11-04 14:09:26,149 - routes.api - INFO
+Payment success: order_id=order_324354843_USDT_10_140455_1104, amount=10.0
+
+2024-11-04 14:09:26,240 - routes.api - INFO
+Received payment callback:
+
+2024-11-04 14:09:26,240 - routes.api - INFO
+Headers: {"host": "wallaby-enabling-easily.ngrok-free.app", "x-real-ip": "192.168.65.1", "x-forwarded-for": "195.201.2.239, 192.168.65.1", "x-forwarded-proto": "http", "connection": "upgrade", "content-length": "599", "user-agent": "NOWPayments v1.0", "accept": "application/json, text/plain, */*", "content-type": "application/json", "x-forwarded-host": "wallaby-enabling-easily.ngrok-free.app", "x-nowpayments-sig": "b5bca93e0a996b0357627c2f713427f336cab59ee7d0ca6d46c5d96527d1e5f175de3fab2c3b43d089aafcaa56512c8026c33f7552ef2ad2e24fe1f3c2e1844b", "accept-encoding": "gzip"}
+
+2024-11-04 14:09:26,241 - routes.api - INFO
+Body: {"actually_paid":0,"actually_paid_at_fiat":0,"fee":{"currency":"usdttrc20","depositFee":0,"serviceFee":0,"withdrawalFee":0},"invoice_id":5288507938,"order_description":null,"order_id":"order_324354843_USDT_10_140455_1104","outcome_amount":12.540578,"outcome_currency":"usdttrc20","parent_payment_id":null,"pay_address":"TUBjfPmKjP3cz3RcL7mtii4ENt5pvrA8Ec","pay_amount":17.83412,"pay_currency":"usdttrc20","payin_extra_id":null,"payment_extra_ids":null,"payment_id":4927401028,"payment_status":"finished","price_amount":10,"price_currency":"usd","purchase_id":"4966458526","updated_at":1730729365016}
+
+2024-11-04 14:09:26,241 - routes.api - INFO
+Processing payment data: {
+  "actually_paid": 0,
+  "actually_paid_at_fiat": 0,
+  "fee": {
+    "currency": "usdttrc20",
+    "depositFee": 0,
+    "serviceFee": 0,
+    "withdrawalFee": 0
+  },
+  "invoice_id": 5288507938,
+  "order_description": null,
+  "order_id": "order_324354843_USDT_10_140455_1104",
+  "outcome_amount": 12.540578,
+  "outcome_currency": "usdttrc20",
+  "parent_payment_id": null,
+  "pay_address": "TUBjfPmKjP3cz3RcL7mtii4ENt5pvrA8Ec",
+  "pay_amount": 17.83412,
+  "pay_currency": "usdttrc20",
+  "payin_extra_id": null,
+  "payment_extra_ids": null,
+  "payment_id": 4927401028,
+  "payment_status": "finished",
+  "price_amount": 10,
+  "price_currency": "usd",
+  "purchase_id": "4966458526",
+  "updated_at": 1730729365016
+}
+
+2024-11-04 14:09:26,241 - routes.api - INFO
+Payment success: order_id=order_324354843_USDT_10_140455_1104, amount=10.0
+
+2024-11-04 14:12:39,366 - routes.api - INFO
+Received Telegram webhook:
+{
+    "message": {
+        "chat": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "last_name": "Романовский",
+            "type": "private",
+            "username": "AlekseyRomanovsky"
+        },
+        "date": 1730729559,
+        "entities": [
+            {
+                "length": 6,
+                "offset": 0,
+                "type": "bot_command"
+            }
+        ],
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "message_id": 2776,
+        "text": "/start"
+    },
+    "update_id": 224628299
+}
+
+2024-11-04 14:12:43,223 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "user_balance",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093443793598601",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730729561,
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2777,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "user_create_key",
+                            "text": "Создать ключ ⚡️"
+                        },
+                        {
+                            "callback_data": "user_keys",
+                            "text": "Мои ключи 🔑"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "user_balance",
+                            "text": "Баланс 💎"
+                        },
+                        {
+                            "callback_data": "user_top_up",
+                            "text": "Оплата 🛍"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "instruction",
+                            "text": "Инструкция 🧾"
+                        }
+                    ]
+                ]
+            },
+            "text": "LikeVPN - это сервис доступа к любимым социальным сетям и сервисам с безопасной передачей данных в зашифрованном виде.\nНастройка в 2 клика.\n🚀 Скорость от 100 Мбит/с.\n🖥 Собственные сервера: 🇩🇪 🇫🇮"
+        }
+    },
+    "update_id": 224628300
+}
+
+2024-11-04 14:12:45,667 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "user_top_up",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093445331953385",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730729564,
+            "entities": [
+                {
+                    "length": 11,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2778,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "user_create_key",
+                            "text": "Создать ключ ⚡️"
+                        },
+                        {
+                            "callback_data": "user_keys",
+                            "text": "Мои ключи 🔑"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "user_balance",
+                            "text": "Баланс 💎"
+                        },
+                        {
+                            "callback_data": "user_top_up",
+                            "text": "Оплата 🛍"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "instruction",
+                            "text": "Инструкция 🧾"
+                        }
+                    ]
+                ]
+            },
+            "text": "Ваш баланс: 20.0 USD"
+        }
+    },
+    "update_id": 224628301
+}
+
+2024-11-04 14:12:47,754 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093445650138705",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730729566,
+            "entities": [
+                {
+                    "length": 26,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2779,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT",
+                            "text": "USDT (Tether)"
+                        },
+                        {
+                            "callback_data": "top_up_TON",
+                            "text": "TON (Toncoin)"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "top_up_XMR",
+                            "text": "XMR (Monero)"
+                        },
+                        {
+                            "callback_data": "top_up_LTC",
+                            "text": "LTC (Litecoin)"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите монету пополнения"
+        }
+    },
+    "update_id": 224628302
+}
+
+2024-11-04 14:12:50,033 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT_10",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093446875556992",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730729568,
+            "entities": [
+                {
+                    "length": 32,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2780,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT_10",
+                            "text": "10 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_25",
+                            "text": "25 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_100",
+                            "text": "100 💲"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите сумму пополнения в USDT"
+        }
+    },
+    "update_id": 224628303
+}
+
+2024-11-04 14:13:23,561 - routes.api - INFO
+Received payment callback:
+
+2024-11-04 14:13:23,567 - routes.api - INFO
+Headers: {"host": "wallaby-enabling-easily.ngrok-free.app", "x-real-ip": "192.168.65.1", "x-forwarded-for": "195.201.2.239, 192.168.65.1", "x-forwarded-proto": "http", "connection": "upgrade", "content-length": "600", "user-agent": "NOWPayments v1.0", "accept": "application/json, text/plain, */*", "content-type": "application/json", "x-forwarded-host": "wallaby-enabling-easily.ngrok-free.app", "x-nowpayments-sig": "e9a1faafa1d6036820fdcd6c4878c289566977fc03b6b70a451af037b7a3113473be97976a578c12cda31caa1f5a7ce7f2483e5d18ecd6457fd56db6b447d478", "accept-encoding": "gzip"}
+
+2024-11-04 14:13:23,567 - routes.api - INFO
+Body: {"actually_paid":0,"actually_paid_at_fiat":0,"fee":{"currency":"usdttrc20","depositFee":0,"serviceFee":0,"withdrawalFee":0},"invoice_id":4585636141,"order_description":null,"order_id":"order_324354843_USDT_10_141250_1104","outcome_amount":12.557776,"outcome_currency":"usdttrc20","parent_payment_id":null,"pay_address":"TBxTDGVUnfwiWTaK8WbAKYCPVRTXE91kgY","pay_amount":17.851491,"pay_currency":"usdttrc20","payin_extra_id":null,"payment_extra_ids":null,"payment_id":6184322172,"payment_status":"finished","price_amount":10,"price_currency":"usd","purchase_id":"4977229295","updated_at":1730729603230}
+
+2024-11-04 14:13:23,568 - routes.api - INFO
+Processing payment data: {
+  "actually_paid": 0,
+  "actually_paid_at_fiat": 0,
+  "fee": {
+    "currency": "usdttrc20",
+    "depositFee": 0,
+    "serviceFee": 0,
+    "withdrawalFee": 0
+  },
+  "invoice_id": 4585636141,
+  "order_description": null,
+  "order_id": "order_324354843_USDT_10_141250_1104",
+  "outcome_amount": 12.557776,
+  "outcome_currency": "usdttrc20",
+  "parent_payment_id": null,
+  "pay_address": "TBxTDGVUnfwiWTaK8WbAKYCPVRTXE91kgY",
+  "pay_amount": 17.851491,
+  "pay_currency": "usdttrc20",
+  "payin_extra_id": null,
+  "payment_extra_ids": null,
+  "payment_id": 6184322172,
+  "payment_status": "finished",
+  "price_amount": 10,
+  "price_currency": "usd",
+  "purchase_id": "4977229295",
+  "updated_at": 1730729603230
+}
+
+2024-11-04 14:13:23,569 - routes.api - INFO
+Payment success: order_id=order_324354843_USDT_10_141250_1104, amount=10.0
+
+2024-11-04 14:16:09,360 - routes.api - INFO
+Received Telegram webhook:
+{
+    "message": {
+        "chat": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "last_name": "Романовский",
+            "type": "private",
+            "username": "AlekseyRomanovsky"
+        },
+        "date": 1730729769,
+        "entities": [
+            {
+                "length": 6,
+                "offset": 0,
+                "type": "bot_command"
+            }
+        ],
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "message_id": 2783,
+        "text": "/start"
+    },
+    "update_id": 224628304
+}
+
+2024-11-04 14:16:19,618 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "user_top_up",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093444515763293",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730729774,
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2784,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "user_create_key",
+                            "text": "Создать ключ ⚡️"
+                        },
+                        {
+                            "callback_data": "user_keys",
+                            "text": "Мои ключи 🔑"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "user_balance",
+                            "text": "Баланс 💎"
+                        },
+                        {
+                            "callback_data": "user_top_up",
+                            "text": "Оплата 🛍"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "instruction",
+                            "text": "Инструкция 🧾"
+                        }
+                    ]
+                ]
+            },
+            "text": "LikeVPN - это сервис доступа к любимым социальным сетям и сервисам с безопасной передачей данных в зашифрованном виде.\nНастройка в 2 клика.\n🚀 Скорость от 100 Мбит/с.\n🖥 Собственные сервера: 🇩🇪 🇫🇮"
+        }
+    },
+    "update_id": 224628305
+}
+
+2024-11-04 14:16:24,908 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_TON",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093447033969056",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730729782,
+            "entities": [
+                {
+                    "length": 26,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2785,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT",
+                            "text": "USDT (Tether)"
+                        },
+                        {
+                            "callback_data": "top_up_TON",
+                            "text": "TON (Toncoin)"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "top_up_XMR",
+                            "text": "XMR (Monero)"
+                        },
+                        {
+                            "callback_data": "top_up_LTC",
+                            "text": "LTC (Litecoin)"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите монету пополнения"
+        }
+    },
+    "update_id": 224628306
+}
+
+2024-11-04 14:16:26,887 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_TON_10",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093444973904985",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730729785,
+            "entities": [
+                {
+                    "length": 31,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2786,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_TON_10",
+                            "text": "10 💲"
+                        },
+                        {
+                            "callback_data": "top_up_TON_25",
+                            "text": "25 💲"
+                        },
+                        {
+                            "callback_data": "top_up_TON_100",
+                            "text": "100 💲"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите сумму пополнения в TON"
+        }
+    },
+    "update_id": 224628307
+}
+
+2024-11-04 14:17:25,094 - routes.api - INFO
+Received payment callback:
+
+2024-11-04 14:17:25,098 - routes.api - INFO
+Headers: {"host": "wallaby-enabling-easily.ngrok-free.app", "x-real-ip": "192.168.65.1", "x-forwarded-for": "195.201.2.239, 192.168.65.1", "x-forwarded-proto": "http", "connection": "upgrade", "content-length": "608", "user-agent": "NOWPayments v1.0", "accept": "application/json, text/plain, */*", "content-type": "application/json", "x-forwarded-host": "wallaby-enabling-easily.ngrok-free.app", "x-nowpayments-sig": "921289fe87e6c53941f0d65b00bfbf2e1cbd982c1a424eeaad9e595f55ae596a9a64c2cb3670061673100485040eeb9203ab993d8cb1bd7ec1a84a550d0e9f31", "accept-encoding": "gzip"}
+
+2024-11-04 14:17:25,098 - routes.api - INFO
+Body: {"actually_paid":0,"actually_paid_at_fiat":0,"fee":{"currency":"usdttrc20","depositFee":0,"serviceFee":0,"withdrawalFee":0},"invoice_id":4928787311,"order_description":null,"order_id":"order_324354843_TON_10_141628_1104","outcome_amount":12.539308,"outcome_currency":"usdttrc20","parent_payment_id":null,"pay_address":"UQAfc1y429BqL6inWv_AXLKj9vIYW9KBGuvgKeorBSnumD0k","pay_amount":3.18867193,"pay_currency":"ton","payin_extra_id":null,"payment_extra_ids":null,"payment_id":4771880387,"payment_status":"finished","price_amount":10,"price_currency":"usd","purchase_id":"4745409615","updated_at":1730729844509}
+
+2024-11-04 14:17:25,099 - routes.api - INFO
+Processing payment data: {
+  "actually_paid": 0,
+  "actually_paid_at_fiat": 0,
+  "fee": {
+    "currency": "usdttrc20",
+    "depositFee": 0,
+    "serviceFee": 0,
+    "withdrawalFee": 0
+  },
+  "invoice_id": 4928787311,
+  "order_description": null,
+  "order_id": "order_324354843_TON_10_141628_1104",
+  "outcome_amount": 12.539308,
+  "outcome_currency": "usdttrc20",
+  "parent_payment_id": null,
+  "pay_address": "UQAfc1y429BqL6inWv_AXLKj9vIYW9KBGuvgKeorBSnumD0k",
+  "pay_amount": 3.18867193,
+  "pay_currency": "ton",
+  "payin_extra_id": null,
+  "payment_extra_ids": null,
+  "payment_id": 4771880387,
+  "payment_status": "finished",
+  "price_amount": 10,
+  "price_currency": "usd",
+  "purchase_id": "4745409615",
+  "updated_at": 1730729844509
+}
+
+2024-11-04 14:17:25,099 - routes.api - INFO
+Payment success: order_id=order_324354843_TON_10_141628_1104, amount=10.0
+
+2024-11-04 14:17:59,811 - routes.api - INFO
+Received Telegram webhook:
+{
+    "message": {
+        "chat": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "last_name": "Романовский",
+            "type": "private",
+            "username": "AlekseyRomanovsky"
+        },
+        "date": 1730729879,
+        "entities": [
+            {
+                "length": 6,
+                "offset": 0,
+                "type": "bot_command"
+            }
+        ],
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "message_id": 2789,
+        "text": "/start"
+    },
+    "update_id": 224628308
+}
+
+2024-11-04 14:18:02,778 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "user_balance",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093446376018162",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730729881,
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2790,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "user_create_key",
+                            "text": "Создать ключ ⚡️"
+                        },
+                        {
+                            "callback_data": "user_keys",
+                            "text": "Мои ключи 🔑"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "user_balance",
+                            "text": "Баланс 💎"
+                        },
+                        {
+                            "callback_data": "user_top_up",
+                            "text": "Оплата 🛍"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "instruction",
+                            "text": "Инструкция 🧾"
+                        }
+                    ]
+                ]
+            },
+            "text": "LikeVPN - это сервис доступа к любимым социальным сетям и сервисам с безопасной передачей данных в зашифрованном виде.\nНастройка в 2 клика.\n🚀 Скорость от 100 Мбит/с.\n🖥 Собственные сервера: 🇩🇪 🇫🇮"
+        }
+    },
+    "update_id": 224628309
+}
+
+2024-11-04 14:18:06,644 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "user_top_up",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093445293767714",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730729884,
+            "entities": [
+                {
+                    "length": 11,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2791,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "user_create_key",
+                            "text": "Создать ключ ⚡️"
+                        },
+                        {
+                            "callback_data": "user_keys",
+                            "text": "Мои ключи 🔑"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "user_balance",
+                            "text": "Баланс 💎"
+                        },
+                        {
+                            "callback_data": "user_top_up",
+                            "text": "Оплата 🛍"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "instruction",
+                            "text": "Инструкция 🧾"
+                        }
+                    ]
+                ]
+            },
+            "text": "Ваш баланс: 40.0 USD"
+        }
+    },
+    "update_id": 224628310
+}
+
+2024-11-04 14:18:09,879 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093444768591927",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730729887,
+            "entities": [
+                {
+                    "length": 26,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2792,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT",
+                            "text": "USDT (Tether)"
+                        },
+                        {
+                            "callback_data": "top_up_TON",
+                            "text": "TON (Toncoin)"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "top_up_XMR",
+                            "text": "XMR (Monero)"
+                        },
+                        {
+                            "callback_data": "top_up_LTC",
+                            "text": "LTC (Litecoin)"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите монету пополнения"
+        }
+    },
+    "update_id": 224628311
+}
+
+2024-11-04 14:18:12,465 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "top_up_USDT_25",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093445826005321",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730729890,
+            "entities": [
+                {
+                    "length": 32,
+                    "offset": 0,
+                    "type": "bold"
+                }
+            ],
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2793,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "top_up_USDT_10",
+                            "text": "10 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_25",
+                            "text": "25 💲"
+                        },
+                        {
+                            "callback_data": "top_up_USDT_100",
+                            "text": "100 💲"
+                        }
+                    ]
+                ]
+            },
+            "text": "Выберите сумму пополнения в USDT"
+        }
+    },
+    "update_id": 224628312
+}
+
+2024-11-04 14:19:23,242 - routes.api - INFO
+Received payment callback:
+
+2024-11-04 14:19:23,245 - routes.api - INFO
+Headers: {"host": "wallaby-enabling-easily.ngrok-free.app", "x-real-ip": "192.168.65.1", "x-forwarded-for": "195.201.2.239, 192.168.65.1", "x-forwarded-proto": "http", "connection": "upgrade", "content-length": "600", "user-agent": "NOWPayments v1.0", "accept": "application/json, text/plain, */*", "content-type": "application/json", "x-forwarded-host": "wallaby-enabling-easily.ngrok-free.app", "x-nowpayments-sig": "354ae44756cfe0a3758014f80a7bcd2701400add7db02be93575a940189d6e15ec55b2d8bd428c4c541adaeb06f46da56e33c87d9350112d56b128f579ef86d1", "accept-encoding": "gzip"}
+
+2024-11-04 14:19:23,245 - routes.api - INFO
+Body: {"actually_paid":0,"actually_paid_at_fiat":0,"fee":{"currency":"usdttrc20","depositFee":0,"serviceFee":0,"withdrawalFee":0},"invoice_id":4464468690,"order_description":null,"order_id":"order_324354843_USDT_25_141812_1104","outcome_amount":27.530992,"outcome_currency":"usdttrc20","parent_payment_id":null,"pay_address":"TBBp15fkxT8f2FYJctLVThoF2wzde9y9wv","pay_amount":32.975952,"pay_currency":"usdttrc20","payin_extra_id":null,"payment_extra_ids":null,"payment_id":6124866409,"payment_status":"finished","price_amount":25,"price_currency":"usd","purchase_id":"6430919779","updated_at":1730729962938}
+
+2024-11-04 14:19:23,246 - routes.api - INFO
+Processing payment data: {
+  "actually_paid": 0,
+  "actually_paid_at_fiat": 0,
+  "fee": {
+    "currency": "usdttrc20",
+    "depositFee": 0,
+    "serviceFee": 0,
+    "withdrawalFee": 0
+  },
+  "invoice_id": 4464468690,
+  "order_description": null,
+  "order_id": "order_324354843_USDT_25_141812_1104",
+  "outcome_amount": 27.530992,
+  "outcome_currency": "usdttrc20",
+  "parent_payment_id": null,
+  "pay_address": "TBBp15fkxT8f2FYJctLVThoF2wzde9y9wv",
+  "pay_amount": 32.975952,
+  "pay_currency": "usdttrc20",
+  "payin_extra_id": null,
+  "payment_extra_ids": null,
+  "payment_id": 6124866409,
+  "payment_status": "finished",
+  "price_amount": 25,
+  "price_currency": "usd",
+  "purchase_id": "6430919779",
+  "updated_at": 1730729962938
+}
+
+2024-11-04 14:19:23,246 - routes.api - INFO
+Payment success: order_id=order_324354843_USDT_25_141812_1104, amount=25.0
+
+2024-11-04 14:19:39,429 - routes.api - INFO
+Received Telegram webhook:
+{
+    "message": {
+        "chat": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "last_name": "Романовский",
+            "type": "private",
+            "username": "AlekseyRomanovsky"
+        },
+        "date": 1730729979,
+        "entities": [
+            {
+                "length": 6,
+                "offset": 0,
+                "type": "bot_command"
+            }
+        ],
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "message_id": 2796,
+        "text": "/start"
+    },
+    "update_id": 224628313
+}
+
+2024-11-04 14:19:42,674 - routes.api - INFO
+Received Telegram webhook:
+{
+    "callback_query": {
+        "chat_instance": "5830817149919259151",
+        "data": "user_balance",
+        "from": {
+            "first_name": "Алексей",
+            "id": 324354843,
+            "is_bot": false,
+            "language_code": "ru",
+            "last_name": "Романовский",
+            "username": "AlekseyRomanovsky"
+        },
+        "id": "1393093444707472329",
+        "message": {
+            "chat": {
+                "first_name": "Алексей",
+                "id": 324354843,
+                "last_name": "Романовский",
+                "type": "private",
+                "username": "AlekseyRomanovsky"
+            },
+            "date": 1730729980,
+            "from": {
+                "first_name": "TESTROMA",
+                "id": 6270881864,
+                "is_bot": true,
+                "username": "test_1337_1488_bot"
+            },
+            "message_id": 2797,
+            "reply_markup": {
+                "inline_keyboard": [
+                    [
+                        {
+                            "callback_data": "user_create_key",
+                            "text": "Создать ключ ⚡️"
+                        },
+                        {
+                            "callback_data": "user_keys",
+                            "text": "Мои ключи 🔑"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "user_balance",
+                            "text": "Баланс 💎"
+                        },
+                        {
+                            "callback_data": "user_top_up",
+                            "text": "Оплата 🛍"
+                        }
+                    ],
+                    [
+                        {
+                            "callback_data": "instruction",
+                            "text": "Инструкция 🧾"
+                        }
+                    ]
+                ]
+            },
+            "text": "LikeVPN - это сервис доступа к любимым социальным сетям и сервисам с безопасной передачей данных в зашифрованном виде.\nНастройка в 2 клика.\n🚀 Скорость от 100 Мбит/с.\n🖥 Собственные сервера: 🇩🇪 🇫🇮"
+        }
+    },
+    "update_id": 224628314
+}
+
+2024-11-04 14:23:51,255 - routes.api - INFO
+Received Telegram webhook:
+{
+    "chat_member": {
+        "chat": {
+            "id": -1002343030426,
+            "title": "buy",
+            "type": "channel"
+        },
+        "date": 1730730231,
+        "from": {
+            "first_name": "Алексей",
+            "id": 499431997,
+            "is_bot": false,
+            "is_premium": true,
+            "language_code": "ru",
+            "username": "kybik444"
+        },
+        "new_chat_member": {
+            "can_be_edited": false,
+            "can_change_info": true,
+            "can_delete_messages": true,
+            "can_delete_stories": true,
+            "can_edit_messages": true,
+            "can_edit_stories": true,
+            "can_invite_users": true,
+            "can_manage_chat": true,
+            "can_manage_video_chats": true,
+            "can_manage_voice_chats": true,
+            "can_post_messages": true,
+            "can_post_stories": true,
+            "can_promote_members": false,
+            "can_restrict_members": true,
+            "is_anonymous": false,
+            "status": "administrator",
+            "user": {
+                "first_name": "Константин",
+                "id": 1128882076,
+                "is_bot": false,
+                "is_premium": true,
+                "language_code": "ru",
+                "username": "mazltovs"
+            }
+        },
+        "old_chat_member": {
+            "status": "left",
+            "user": {
+                "first_name": "Константин",
+                "id": 1128882076,
+                "is_bot": false,
+                "is_premium": true,
+                "language_code": "ru",
+                "username": "mazltovs"
+            }
+        }
+    },
+    "update_id": 224628315
+}
+

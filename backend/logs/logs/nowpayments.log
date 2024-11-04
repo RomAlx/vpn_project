@@ -1,0 +1,537 @@
+2024-11-04 13:25:54,977 - nowpayments - INFO
+Создание инвойса: amount=10.0, currency=USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_10_132554_1104
+
+2024-11-04 13:25:54,977 - nowpayments - INFO
+Создание инвойса: amount=10.0, currency=USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_10_132554_1104
+
+2024-11-04 13:25:54,978 - nowpayments - INFO
+Отправляем запрос к NOWPayments: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_10_132554_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/test_1337_1488_bot", "cancel_url": "https://t.me/test_1337_1488_bot"}
+
+2024-11-04 13:25:54,978 - nowpayments - INFO
+Отправляем запрос к NOWPayments: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_10_132554_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/test_1337_1488_bot", "cancel_url": "https://t.me/test_1337_1488_bot"}
+
+2024-11-04 13:25:55,958 - nowpayments - INFO
+Получен ответ от NOWPayments: {"id": "4969303035", "token_id": "5086697212", "order_id": "order_324354843_USDT_10_132554_1104", "order_description": null, "price_amount": "10", "price_currency": "USD", "pay_currency": "USDTTRC20", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "invoice_url": "https://nowpayments.io/payment/?iid=4969303035", "success_url": "https://t.me/test_1337_1488_bot", "cancel_url": "https://t.me/test_1337_1488_bot", "customer_email": null, "partially_paid_url": null, "payout_currency": null, "created_at": "2024-11-04T13:25:56.030Z", "updated_at": "2024-11-04T13:25:56.030Z", "is_fixed_rate": false, "is_fee_paid_by_user": false}
+
+2024-11-04 13:25:55,958 - nowpayments - INFO
+Получен ответ от NOWPayments: {"id": "4969303035", "token_id": "5086697212", "order_id": "order_324354843_USDT_10_132554_1104", "order_description": null, "price_amount": "10", "price_currency": "USD", "pay_currency": "USDTTRC20", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "invoice_url": "https://nowpayments.io/payment/?iid=4969303035", "success_url": "https://t.me/test_1337_1488_bot", "cancel_url": "https://t.me/test_1337_1488_bot", "customer_email": null, "partially_paid_url": null, "payout_currency": null, "created_at": "2024-11-04T13:25:56.030Z", "updated_at": "2024-11-04T13:25:56.030Z", "is_fixed_rate": false, "is_fee_paid_by_user": false}
+
+2024-11-04 13:27:12,829 - nowpayments - ERROR
+NOWPAYMENTS_IPN_SECRET не настроен
+
+2024-11-04 13:27:12,829 - nowpayments - ERROR
+NOWPAYMENTS_IPN_SECRET не настроен
+
+2024-11-04 13:36:32,636 - nowpayments - INFO
+Initialized NowPayments in sandbox mode
+
+2024-11-04 13:36:32,636 - nowpayments - ERROR
+API key not configured!
+
+2024-11-04 13:36:32,636 - nowpayments - ERROR
+IPN secret not configured!
+
+2024-11-04 13:36:32,637 - nowpayments - INFO
+Initialized NowPayments in sandbox mode
+
+2024-11-04 13:36:32,637 - nowpayments - INFO
+Initialized NowPayments in sandbox mode
+
+2024-11-04 13:36:32,637 - nowpayments - ERROR
+API key not configured!
+
+2024-11-04 13:36:32,637 - nowpayments - ERROR
+API key not configured!
+
+2024-11-04 13:36:32,637 - nowpayments - ERROR
+IPN secret not configured!
+
+2024-11-04 13:36:32,637 - nowpayments - ERROR
+IPN secret not configured!
+
+2024-11-04 13:39:46,894 - nowpayments - INFO
+Initialized NowPayments in sandbox mode
+
+2024-11-04 13:39:46,894 - nowpayments - INFO
+Initialized NowPayments in sandbox mode
+
+2024-11-04 13:39:46,894 - nowpayments - INFO
+Initialized NowPayments in sandbox mode
+
+2024-11-04 13:41:57,269 - nowpayments - INFO
+Initialized NowPayments in sandbox mode
+
+2024-11-04 13:41:57,269 - nowpayments - INFO
+Initialized NowPayments in sandbox mode
+
+2024-11-04 13:41:57,269 - nowpayments - INFO
+Initialized NowPayments in sandbox mode
+
+2024-11-04 13:42:32,243 - nowpayments - INFO
+Creating invoice in sandbox mode: amount=10.0, currency=USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_10_134232_1104
+
+2024-11-04 13:42:32,243 - nowpayments - INFO
+Creating invoice in sandbox mode: amount=10.0, currency=USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_10_134232_1104
+
+2024-11-04 13:42:32,244 - nowpayments - INFO
+Sending request to NOWPayments: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_10_134232_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/your_bot", "cancel_url": "https://t.me/your_bot", "is_fee_paid_by_user": true, "sandbox": true}
+
+2024-11-04 13:42:32,244 - nowpayments - INFO
+Sending request to NOWPayments: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_10_134232_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/your_bot", "cancel_url": "https://t.me/your_bot", "is_fee_paid_by_user": true, "sandbox": true}
+
+2024-11-04 13:42:33,370 - nowpayments - ERROR
+Request error to NOWPayments API: 400 Client Error: Bad Request for url: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 13:42:33,370 - nowpayments - ERROR
+Request error to NOWPayments API: 400 Client Error: Bad Request for url: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 13:50:39,017 - nowpayments - INFO
+Initialized NowPayments in sandbox mode
+
+2024-11-04 13:50:39,018 - nowpayments - ERROR
+API key not configured!
+
+2024-11-04 13:50:39,018 - nowpayments - ERROR
+IPN secret not configured!
+
+2024-11-04 13:50:39,018 - nowpayments - INFO
+Initialized NowPayments in sandbox mode
+
+2024-11-04 13:50:39,018 - nowpayments - INFO
+Initialized NowPayments in sandbox mode
+
+2024-11-04 13:50:39,018 - nowpayments - ERROR
+API key not configured!
+
+2024-11-04 13:50:39,018 - nowpayments - ERROR
+API key not configured!
+
+2024-11-04 13:50:39,018 - nowpayments - ERROR
+IPN secret not configured!
+
+2024-11-04 13:50:39,018 - nowpayments - ERROR
+IPN secret not configured!
+
+2024-11-04 13:52:14,840 - nowpayments - INFO
+Creating invoice in sandbox mode: amount=10.0, currency=USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_10_135214_1104
+
+2024-11-04 13:52:14,840 - nowpayments - INFO
+Creating invoice in sandbox mode: amount=10.0, currency=USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_10_135214_1104
+
+2024-11-04 13:52:14,847 - nowpayments - INFO
+Sending request to NOWPayments: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_10_135214_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "is_fee_paid_by_user": true, "sandbox": true}
+
+2024-11-04 13:52:14,847 - nowpayments - INFO
+Sending request to NOWPayments: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_10_135214_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "is_fee_paid_by_user": true, "sandbox": true}
+
+2024-11-04 13:52:16,323 - nowpayments - ERROR
+Request error to NOWPayments API: 403 Client Error: Forbidden for url: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 13:52:16,323 - nowpayments - ERROR
+Request error to NOWPayments API: 403 Client Error: Forbidden for url: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 13:59:43,331 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 13:59:43,331 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 13:59:43,331 - nowpayments - ERROR
+API key not configured!
+
+2024-11-04 14:00:27,728 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:00:27,729 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:00:27,729 - nowpayments - ERROR
+API key not configured!
+
+2024-11-04 14:01:26,897 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:01:26,898 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:01:28,023 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:01:28,027 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:01:28,027 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:01:28,028 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:01:28,028 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:01:28,874 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:01:28,874 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:01:51,057 - nowpayments - INFO
+Creating invoice: amount=10.0 USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_10_140151_1104
+
+2024-11-04 14:01:51,057 - nowpayments - INFO
+Creating invoice: amount=10.0 USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_10_140151_1104
+
+2024-11-04 14:01:51,057 - nowpayments - INFO
+Request URL: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:01:51,057 - nowpayments - INFO
+Request URL: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:01:51,057 - nowpayments - INFO
+Request data: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_10_140151_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "is_fee_paid_by_user": true, "sandbox": true}
+
+2024-11-04 14:01:51,057 - nowpayments - INFO
+Request data: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_10_140151_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "is_fee_paid_by_user": true, "sandbox": true}
+
+2024-11-04 14:01:51,880 - nowpayments - INFO
+Response status code: 400
+
+2024-11-04 14:01:51,880 - nowpayments - INFO
+Response status code: 400
+
+2024-11-04 14:01:51,881 - nowpayments - INFO
+Response data: {"status": false, "statusCode": 400, "code": "INVALID_REQUEST_PARAMS", "message": "sandbox is not allowed"}
+
+2024-11-04 14:01:51,881 - nowpayments - INFO
+Response data: {"status": false, "statusCode": 400, "code": "INVALID_REQUEST_PARAMS", "message": "sandbox is not allowed"}
+
+2024-11-04 14:01:51,882 - nowpayments - ERROR
+Request error: 400 Client Error: Bad Request for url: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:01:51,882 - nowpayments - ERROR
+Request error: 400 Client Error: Bad Request for url: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:02:59,487 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:02:59,487 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:03:00,380 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:03:00,384 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:03:00,384 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:03:00,385 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:03:00,385 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:03:01,222 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:03:01,222 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:03:11,254 - nowpayments - INFO
+Creating invoice: amount=10.0 USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_10_140311_1104
+
+2024-11-04 14:03:11,254 - nowpayments - INFO
+Creating invoice: amount=10.0 USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_10_140311_1104
+
+2024-11-04 14:03:11,255 - nowpayments - INFO
+Request URL: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:03:11,255 - nowpayments - INFO
+Request URL: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:03:11,255 - nowpayments - INFO
+Request data: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_10_140311_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "is_fee_paid_by_user": true}
+
+2024-11-04 14:03:11,255 - nowpayments - INFO
+Request data: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_10_140311_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "is_fee_paid_by_user": true}
+
+2024-11-04 14:03:12,267 - nowpayments - INFO
+Response status code: 200
+
+2024-11-04 14:03:12,267 - nowpayments - INFO
+Response status code: 200
+
+2024-11-04 14:03:12,268 - nowpayments - INFO
+Response data: {"id": "4349170755", "token_id": "4790158353", "order_id": "order_324354843_USDT_10_140311_1104", "order_description": null, "price_amount": "10", "price_currency": "USD", "pay_currency": "USDTTRC20", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "invoice_url": "https://sandbox.nowpayments.io/payment/?iid=4349170755", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "partially_paid_url": null, "payout_currency": null, "created_at": "2024-11-04T14:03:12.392Z", "updated_at": "2024-11-04T14:03:12.392Z", "is_fixed_rate": true, "is_fee_paid_by_user": true}
+
+2024-11-04 14:03:12,268 - nowpayments - INFO
+Response data: {"id": "4349170755", "token_id": "4790158353", "order_id": "order_324354843_USDT_10_140311_1104", "order_description": null, "price_amount": "10", "price_currency": "USD", "pay_currency": "USDTTRC20", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "invoice_url": "https://sandbox.nowpayments.io/payment/?iid=4349170755", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "partially_paid_url": null, "payout_currency": null, "created_at": "2024-11-04T14:03:12.392Z", "updated_at": "2024-11-04T14:03:12.392Z", "is_fixed_rate": true, "is_fee_paid_by_user": true}
+
+2024-11-04 14:03:12,268 - nowpayments - ERROR
+Validation error: Missing required fields in API response: ['payment_id']
+
+2024-11-04 14:03:12,268 - nowpayments - ERROR
+Validation error: Missing required fields in API response: ['payment_id']
+
+2024-11-04 14:04:21,403 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:04:21,403 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:04:22,259 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:04:22,266 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:04:22,266 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:04:22,266 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:04:22,266 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:04:23,093 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:04:23,093 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:04:55,701 - nowpayments - INFO
+Creating invoice: amount=10.0 USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_10_140455_1104
+
+2024-11-04 14:04:55,701 - nowpayments - INFO
+Creating invoice: amount=10.0 USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_10_140455_1104
+
+2024-11-04 14:04:55,702 - nowpayments - INFO
+Request URL: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:04:55,702 - nowpayments - INFO
+Request URL: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:04:55,702 - nowpayments - INFO
+Request data: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_10_140455_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "is_fee_paid_by_user": true}
+
+2024-11-04 14:04:55,702 - nowpayments - INFO
+Request data: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_10_140455_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "is_fee_paid_by_user": true}
+
+2024-11-04 14:04:56,726 - nowpayments - INFO
+Response status code: 200
+
+2024-11-04 14:04:56,726 - nowpayments - INFO
+Response status code: 200
+
+2024-11-04 14:04:56,727 - nowpayments - INFO
+Response data: {"id": "5288507938", "token_id": "4790158353", "order_id": "order_324354843_USDT_10_140455_1104", "order_description": null, "price_amount": "10", "price_currency": "USD", "pay_currency": "USDTTRC20", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "invoice_url": "https://sandbox.nowpayments.io/payment/?iid=5288507938", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "partially_paid_url": null, "payout_currency": null, "created_at": "2024-11-04T14:04:56.669Z", "updated_at": "2024-11-04T14:04:56.669Z", "is_fixed_rate": true, "is_fee_paid_by_user": true}
+
+2024-11-04 14:04:56,727 - nowpayments - INFO
+Response data: {"id": "5288507938", "token_id": "4790158353", "order_id": "order_324354843_USDT_10_140455_1104", "order_description": null, "price_amount": "10", "price_currency": "USD", "pay_currency": "USDTTRC20", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "invoice_url": "https://sandbox.nowpayments.io/payment/?iid=5288507938", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "partially_paid_url": null, "payout_currency": null, "created_at": "2024-11-04T14:04:56.669Z", "updated_at": "2024-11-04T14:04:56.669Z", "is_fixed_rate": true, "is_fee_paid_by_user": true}
+
+2024-11-04 14:06:16,764 - nowpayments - INFO
+Signature verification successful
+
+2024-11-04 14:06:16,764 - nowpayments - INFO
+Signature verification successful
+
+2024-11-04 14:07:20,197 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:07:20,197 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:07:21,080 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:07:21,085 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:07:21,085 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:07:21,085 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:07:21,085 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:07:22,104 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:07:22,104 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:10:21,544 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:10:21,544 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:10:23,256 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:10:23,260 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:10:23,260 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:10:23,261 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:10:23,261 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:10:24,169 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:10:24,169 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:10:39,759 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:10:39,759 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:10:40,860 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:10:40,865 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:10:40,865 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:10:40,865 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:10:40,865 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:10:41,834 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:10:41,834 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:12:50,506 - nowpayments - INFO
+Creating invoice: amount=10.0 USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_10_141250_1104
+
+2024-11-04 14:12:50,506 - nowpayments - INFO
+Creating invoice: amount=10.0 USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_10_141250_1104
+
+2024-11-04 14:12:50,507 - nowpayments - INFO
+Request URL: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:12:50,507 - nowpayments - INFO
+Request URL: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:12:50,508 - nowpayments - INFO
+Request data: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_10_141250_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "is_fee_paid_by_user": true}
+
+2024-11-04 14:12:50,508 - nowpayments - INFO
+Request data: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_10_141250_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "is_fee_paid_by_user": true}
+
+2024-11-04 14:12:51,386 - nowpayments - INFO
+Response status code: 200
+
+2024-11-04 14:12:51,386 - nowpayments - INFO
+Response status code: 200
+
+2024-11-04 14:12:51,387 - nowpayments - INFO
+Response data: {"id": "4585636141", "token_id": "4790158353", "order_id": "order_324354843_USDT_10_141250_1104", "order_description": null, "price_amount": "10", "price_currency": "USD", "pay_currency": "USDTTRC20", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "invoice_url": "https://sandbox.nowpayments.io/payment/?iid=4585636141", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "partially_paid_url": null, "payout_currency": null, "created_at": "2024-11-04T14:12:51.524Z", "updated_at": "2024-11-04T14:12:51.524Z", "is_fixed_rate": true, "is_fee_paid_by_user": true}
+
+2024-11-04 14:12:51,387 - nowpayments - INFO
+Response data: {"id": "4585636141", "token_id": "4790158353", "order_id": "order_324354843_USDT_10_141250_1104", "order_description": null, "price_amount": "10", "price_currency": "USD", "pay_currency": "USDTTRC20", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "invoice_url": "https://sandbox.nowpayments.io/payment/?iid=4585636141", "success_url": "https://t.me/your_dev_bot", "cancel_url": "https://t.me/your_dev_bot", "partially_paid_url": null, "payout_currency": null, "created_at": "2024-11-04T14:12:51.524Z", "updated_at": "2024-11-04T14:12:51.524Z", "is_fixed_rate": true, "is_fee_paid_by_user": true}
+
+2024-11-04 14:15:27,811 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:15:27,812 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:15:28,756 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:15:28,761 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:15:28,761 - nowpayments - INFO
+Initializing NowPayments in sandbox mode
+
+2024-11-04 14:15:28,761 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:15:28,761 - nowpayments - INFO
+Using sandbox configuration
+
+2024-11-04 14:15:29,712 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:15:29,712 - nowpayments - INFO
+Successfully connected to NOWPayments API
+
+2024-11-04 14:16:28,128 - nowpayments - INFO
+Creating invoice: amount=10.0 USD, pay_currency=TON, order_id=order_324354843_TON_10_141628_1104
+
+2024-11-04 14:16:28,128 - nowpayments - INFO
+Creating invoice: amount=10.0 USD, pay_currency=TON, order_id=order_324354843_TON_10_141628_1104
+
+2024-11-04 14:16:28,135 - nowpayments - INFO
+Request URL: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:16:28,135 - nowpayments - INFO
+Request URL: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:16:28,135 - nowpayments - INFO
+Request data: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "TON", "order_id": "order_324354843_TON_10_141628_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/test_1337_1488_bot", "cancel_url": "https://t.me/test_1337_1488_bot", "is_fee_paid_by_user": true}
+
+2024-11-04 14:16:28,135 - nowpayments - INFO
+Request data: {"price_amount": 10.0, "price_currency": "USD", "pay_currency": "TON", "order_id": "order_324354843_TON_10_141628_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/test_1337_1488_bot", "cancel_url": "https://t.me/test_1337_1488_bot", "is_fee_paid_by_user": true}
+
+2024-11-04 14:16:29,318 - nowpayments - INFO
+Response status code: 200
+
+2024-11-04 14:16:29,318 - nowpayments - INFO
+Response status code: 200
+
+2024-11-04 14:16:29,324 - nowpayments - INFO
+Response data: {"id": "4928787311", "token_id": "4790158353", "order_id": "order_324354843_TON_10_141628_1104", "order_description": null, "price_amount": "10", "price_currency": "USD", "pay_currency": "TON", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "invoice_url": "https://sandbox.nowpayments.io/payment/?iid=4928787311", "success_url": "https://t.me/test_1337_1488_bot", "cancel_url": "https://t.me/test_1337_1488_bot", "partially_paid_url": null, "payout_currency": null, "created_at": "2024-11-04T14:16:29.233Z", "updated_at": "2024-11-04T14:16:29.233Z", "is_fixed_rate": true, "is_fee_paid_by_user": true}
+
+2024-11-04 14:16:29,324 - nowpayments - INFO
+Response data: {"id": "4928787311", "token_id": "4790158353", "order_id": "order_324354843_TON_10_141628_1104", "order_description": null, "price_amount": "10", "price_currency": "USD", "pay_currency": "TON", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "invoice_url": "https://sandbox.nowpayments.io/payment/?iid=4928787311", "success_url": "https://t.me/test_1337_1488_bot", "cancel_url": "https://t.me/test_1337_1488_bot", "partially_paid_url": null, "payout_currency": null, "created_at": "2024-11-04T14:16:29.233Z", "updated_at": "2024-11-04T14:16:29.233Z", "is_fixed_rate": true, "is_fee_paid_by_user": true}
+
+2024-11-04 14:18:12,781 - nowpayments - INFO
+Creating invoice: amount=25.0 USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_25_141812_1104
+
+2024-11-04 14:18:12,781 - nowpayments - INFO
+Creating invoice: amount=25.0 USD, pay_currency=USDTTRC20, order_id=order_324354843_USDT_25_141812_1104
+
+2024-11-04 14:18:12,781 - nowpayments - INFO
+Request URL: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:18:12,781 - nowpayments - INFO
+Request URL: https://api-sandbox.nowpayments.io/v1/invoice
+
+2024-11-04 14:18:12,782 - nowpayments - INFO
+Request data: {"price_amount": 25.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_25_141812_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/test_1337_1488_bot", "cancel_url": "https://t.me/test_1337_1488_bot", "is_fee_paid_by_user": true}
+
+2024-11-04 14:18:12,782 - nowpayments - INFO
+Request data: {"price_amount": 25.0, "price_currency": "USD", "pay_currency": "USDTTRC20", "order_id": "order_324354843_USDT_25_141812_1104", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "success_url": "https://t.me/test_1337_1488_bot", "cancel_url": "https://t.me/test_1337_1488_bot", "is_fee_paid_by_user": true}
+
+2024-11-04 14:18:13,996 - nowpayments - INFO
+Response status code: 200
+
+2024-11-04 14:18:13,996 - nowpayments - INFO
+Response status code: 200
+
+2024-11-04 14:18:13,997 - nowpayments - INFO
+Response data: {"id": "4464468690", "token_id": "4790158353", "order_id": "order_324354843_USDT_25_141812_1104", "order_description": null, "price_amount": "25", "price_currency": "USD", "pay_currency": "USDTTRC20", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "invoice_url": "https://sandbox.nowpayments.io/payment/?iid=4464468690", "success_url": "https://t.me/test_1337_1488_bot", "cancel_url": "https://t.me/test_1337_1488_bot", "partially_paid_url": null, "payout_currency": null, "created_at": "2024-11-04T14:18:13.908Z", "updated_at": "2024-11-04T14:18:13.908Z", "is_fixed_rate": true, "is_fee_paid_by_user": true}
+
+2024-11-04 14:18:13,997 - nowpayments - INFO
+Response data: {"id": "4464468690", "token_id": "4790158353", "order_id": "order_324354843_USDT_25_141812_1104", "order_description": null, "price_amount": "25", "price_currency": "USD", "pay_currency": "USDTTRC20", "ipn_callback_url": "https://wallaby-enabling-easily.ngrok-free.app/api/payment/callback", "invoice_url": "https://sandbox.nowpayments.io/payment/?iid=4464468690", "success_url": "https://t.me/test_1337_1488_bot", "cancel_url": "https://t.me/test_1337_1488_bot", "partially_paid_url": null, "payout_currency": null, "created_at": "2024-11-04T14:18:13.908Z", "updated_at": "2024-11-04T14:18:13.908Z", "is_fixed_rate": true, "is_fee_paid_by_user": true}
+

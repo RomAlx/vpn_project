@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:mysql://localhost:33061/vpn_project</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="vpn_project@147.78.66.213" uuid="5920745a-7df2-4e5f-83a6-1f212534011b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://147.78.66.213:33061/vpn_project</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

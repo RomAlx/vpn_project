@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 import json
-from telegram import Update, ReplyKeyboardRemove
+from telegram import Update, ReplyKeyboardRemove, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.constants import ParseMode
 
 from backend.repositories.user_repository import UserRepository as user_repository
@@ -138,49 +138,87 @@ class TelegramController:
                 reply_markup=self.chat.amount_keyboard(currency)
             )
         elif callback_data.startswith("top_up_") and len(callback_data.split('_')) == 4:
-            currency = callback_data.split('_')[2]
-            amount = int(callback_data.split('_')[-1])
-
-            self.logger.info(f'callback {callback_data} send')
-            user = user_repository.get_user_by_tg_id(tg_id=update.callback_query.from_user.id)
-
-            if currency.upper() == "USDT":
-                pay_currency = "USDTTRC20"
-            else:
-                pay_currency = currency.upper()
-
-            current_datetime = datetime.now().strftime("%H%M%S_%m%d")
-
             try:
+                currency = callback_data.split('_')[2]
+                amount = int(callback_data.split('_')[-1])
+
+                self.logger.info(f'Создание платежа: currency={currency}, amount={amount}')
+                user = user_repository.get_user_by_tg_id(tg_id=update.callback_query.from_user.id)
+
+                # Проверяем корректность суммы
+                if amount <= 0:
+                    raise ValueError("Некорректная сумма платежа")
+
+                # Определяем валюту оплаты
+                if currency.upper() == "USDT":
+                    pay_currency = "USDTTRC20"
+                else:
+                    pay_currency = currency.upper()
+
+                current_datetime = datetime.now().strftime("%H%M%S_%m%d")
+                order_id = f"order_{user.tg_id}_{currency}_{amount}_{current_datetime}"
+
+                # Создаем инвойс
                 invoice = self.n_p.create_invoice(
-                    amount=amount,
-                    currency="USD",
-                    order_id=f"order_{user.tg_id}_{currency}_{amount}_{current_datetime}",
+                    amount=float(amount),  # Важно преобразовать в float
+                    currency="USD",  # Фиксированная валюта получения
+                    order_id=order_id,
                     pay_currency=pay_currency
                 )
 
-                self.logger.info(f"Созданный инвойс:\n{json.dumps(invoice, indent=4, ensure_ascii=False)}")
+                self.logger.info(f"Создан инвойс:\n{json.dumps(invoice, indent=4, ensure_ascii=False)}")
 
-                invoice_url = invoice.get('invoice_url', None)
+                invoice_url = invoice.get('invoice_url')
+                payment_id = invoice.get('id')
 
-                if invoice_url:
-                    await self.tg.bot.send_message(
-                        chat_id=update.callback_query.message.chat_id,
-                        text=f"Перейдите по ссылке для оплаты: {invoice_url}",
-                        parse_mode=ParseMode.MARKDOWN,
-                        reply_markup=self.chat.start_keyboard()
-                    )
-                else:
-                    raise ValueError("Не удалось получить ссылку на оплату. Проверьте ответ API.")
+                if not invoice_url:
+                    raise ValueError("Не получена ссылка на оплату")
 
-            except Exception as e:
-                self.logger.error(f'Ошибка при создании инвойса: {str(e)}')
-                await self.tg.bot.send_message(
+                # Отправляем пользователю информацию о платеже
+                message = (
+                    f"💰 *Создан счет на оплату*\n\n"
+                    f"Сумма: `{amount}` USD\n"
+                    f"Валюта оплаты: `{pay_currency}`\n\n"
+                    f"Для оплаты перейдите по ссылке ниже👇"
+                )
+
+                keyboard = InlineKeyboardMarkup([
+                    [InlineKeyboardButton("Оплатить", url=invoice_url)],
+                    [InlineKeyboardButton("Отменить", callback_data="cancel_payment")]
+                ])
+
+                await self.bot.send_message(
                     chat_id=update.callback_query.message.chat_id,
-                    text="Произошла ошибка при создании инвойса. Попробуйте позже.",
+                    text=message,
+                    parse_mode=ParseMode.MARKDOWN,
+                    reply_markup=keyboard
+                )
+
+            except ValueError as ve:
+                error_msg = f"Ошибка валидации: {str(ve)}"
+                self.logger.error(error_msg)
+                await self.bot.send_message(
+                    chat_id=update.callback_query.message.chat_id,
+                    text=f"⚠️ {error_msg}",
                     parse_mode=ParseMode.MARKDOWN,
                     reply_markup=self.chat.start_keyboard()
                 )
+
+            except Exception as e:
+                self.logger.error(f'Ошибка при создании платежа: {str(e)}')
+                await self.bot.send_message(
+                    chat_id=update.callback_query.message.chat_id,
+                    text="❌ Произошла ошибка при создании платежа. Попробуйте позже.",
+                    parse_mode=ParseMode.MARKDOWN,
+                    reply_markup=self.chat.start_keyboard()
+                )
+        elif callback_data == "cancel_payment":
+            await self.bot.send_message(
+                chat_id=update.callback_query.message.chat_id,
+                text="🚫 Платеж отменен. Выберите действие:",
+                parse_mode=ParseMode.MARKDOWN,
+                reply_markup=self.chat.start_keyboard()
+            )
         elif callback_data == "user_create_key":
             message = "***Выберите тарифный план***"
             await self.tg.bot.send_message(

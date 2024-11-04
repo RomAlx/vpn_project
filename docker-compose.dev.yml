@@ -1,11 +1,10 @@
+# docker-compose.dev.yml
 version: '3.8'
 
 services:
-
-    #Nginx Service
     webserver:
         image: nginx:alpine
-        container_name: vpn-nginx
+        container_name: vpn-nginx-dev
         restart: unless-stopped
         tty: true
         ports:
@@ -14,40 +13,32 @@ services:
         volumes:
             - ./:/var/www
             - ./docker/nginx/conf.d/app_dev.conf:/etc/nginx/conf.d/app.conf
-        links:
+        depends_on:
             - app
 
-
-    #Python Service
     app:
-        env_file: .env
         build:
             context: .
             dockerfile: docker/backend/Dockerfile
-            args:
-                - PROJECT_URL=${PROJECT_DEV_URL}
-                - TELEGRAM_BOT_API_TOKEN=${TELEGRAM_BOT_API_TOKEN_DEV}
-                - NOWPAYMENTS_API_KEY=${NOWPAYMENTS_API_KEY_DEV}
-                - VPN_BASE_URL=${VPN_BASE_URL}
-                - VPN_USERNAME=${VPN_USERNAME}
-                - VPN_PASSWORD=${VPN_PASSWORD}
+        container_name: vpn-python-dev
+        env_file:
+            - .env.dev
         expose:
             - "8000"
         ports:
             - "5555:5555"
-        container_name: vpn-python
         restart: unless-stopped
         tty: true
         working_dir: /var/www
         volumes:
             - ./:/var/www
-        links:
+        depends_on:
             - db
+        command: ["uvicorn", "backend.main:app", "--reload", "--host", "0.0.0.0", "--port", "8000"]
 
-    #MySQL Service
     db:
         image: mysql:8
-        container_name: vpn-mysql
+        container_name: vpn-mysql-dev
         restart: always
         tty: true
         ports:
@@ -59,8 +50,6 @@ services:
             - dbdata:/var/lib/mysql
             - ./docker/mysql/my.cnf:/etc/mysql/my.cnf
 
-
-#Volumes
 volumes:
     dbdata:
         driver: local
