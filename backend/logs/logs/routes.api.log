@@ -36823,3 +36823,62 @@ Received Telegram webhook:
     "update_id": 224628315
 }
 
+2024-11-04 14:24:43,222 - routes.api - INFO
+Received Telegram webhook:
+{
+    "chat_member": {
+        "chat": {
+            "id": -1002407177220,
+            "title": "sell",
+            "type": "channel"
+        },
+        "date": 1730730283,
+        "from": {
+            "first_name": "Алексей",
+            "id": 499431997,
+            "is_bot": false,
+            "is_premium": true,
+            "language_code": "ru",
+            "username": "kybik444"
+        },
+        "new_chat_member": {
+            "can_be_edited": false,
+            "can_change_info": true,
+            "can_delete_messages": true,
+            "can_delete_stories": true,
+            "can_edit_messages": true,
+            "can_edit_stories": true,
+            "can_invite_users": true,
+            "can_manage_chat": true,
+            "can_manage_video_chats": true,
+            "can_manage_voice_chats": true,
+            "can_post_messages": true,
+            "can_post_stories": true,
+            "can_promote_members": false,
+            "can_restrict_members": true,
+            "is_anonymous": false,
+            "status": "administrator",
+            "user": {
+                "first_name": "Константин",
+                "id": 1128882076,
+                "is_bot": false,
+                "is_premium": true,
+                "language_code": "ru",
+                "username": "mazltovs"
+            }
+        },
+        "old_chat_member": {
+            "status": "left",
+            "user": {
+                "first_name": "Константин",
+                "id": 1128882076,
+                "is_bot": false,
+                "is_premium": true,
+                "language_code": "ru",
+                "username": "mazltovs"
+            }
+        }
+    },
+    "update_id": 224628316
+}
+
