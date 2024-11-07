@@ -166,19 +166,20 @@ class NowPayments:
             # Проверка статуса ответа
             response.raise_for_status()
 
-            # Проверка необходимых полей в зависимости от режима
+            # Проверяем основные поля, которые должны быть в любом режиме
+            base_required_fields = ['id', 'invoice_url']
+            missing_base_fields = [field for field in base_required_fields if field not in response_json]
+            if missing_base_fields:
+                raise ValueError(f"Missing required fields in API response: {missing_base_fields}")
+
+            # В sandbox режиме ожидаем token_id
             if self.is_sandbox:
-                required_fields = ['id', 'invoice_url', 'token_id']
-            else:
-                required_fields = ['id', 'invoice_url', 'payment_id']
-
-            missing_fields = [field for field in required_fields if field not in response_json]
-            if missing_fields:
-                raise ValueError(f"Missing required fields in API response: {missing_fields}")
-
-            # Если это sandbox, используем token_id вместо payment_id
-            if self.is_sandbox and 'token_id' in response_json:
+                if 'token_id' not in response_json:
+                    raise ValueError("Missing token_id in sandbox API response")
                 response_json['payment_id'] = response_json['token_id']
+            else:
+                # В production режиме используем id как payment_id
+                response_json['payment_id'] = response_json['id']
 
             return response_json
 
